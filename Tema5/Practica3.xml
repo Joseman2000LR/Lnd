@@ -7,18 +7,18 @@
           <editorial>casa del libro</editorial>
       </libro>
       <libro categoria="novela">
-          <autor> </autor>
-          <titulo>  </titulo>
-          <editorial> </editorial>
+          <autor>Pedro suarez</autor>
+          <titulo>La casa de la muerte</titulo>
+          <editorial>El Pais</editorial>
       </libro>
       <libro categoria="programacion">
-          <autor> </autor>
-          <titulo>  </titulo>
-          <editorial> </editorial>
+          <autor>Pedro picasso</autor>
+          <titulo>Java</titulo>
+          <editorial>Suma</editorial>
       </libro>
       <libro categoria="programacion">
-          <autor> </autor>
-          <titulo>  </titulo>
-          <editorial> </editorial>
+          <autor>Juan Perez</autor>
+          <titulo>Pyhon</titulo>
+          <editorial>Suma</editorial>
       </libro>
 </libreria>
