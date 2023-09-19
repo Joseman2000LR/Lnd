@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--1) Se representarán las clases, donde debe existir al menos una clase 
+que se deberá componer de al menos un profesor, 
+y al menos un alumno o alumna. Por cada profesor se  registrará su nombre
+y puede registrarse sus apellidos.
+por cada alumno o alumna se registrarán tanto nombre como apellidos.
+por cada clase se establece que por defecto hay pizarra pudiendo no haberla-->
+<!DOCTYPE Ejercicio1 SYSTEM "Ejercicio1.dtd">
+<Clases>
+    <clase>
+        <profesor>
+            <nombre>dfdfd</nombre>
+            <apellido>pereres</apellido>
+        </profesor>
+        <alumno>
+            <nombre></nombre>
+            <apellido></apellido>
+        </alumno>
+        <pizarra>gfg</pizarra>
+    </clase>
+</Clases>
