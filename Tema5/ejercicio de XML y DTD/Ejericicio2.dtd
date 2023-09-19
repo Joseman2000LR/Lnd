@@ -1,0 +1,8 @@
+<!ELEMENT Inmobilaria (casa+,(propietario ,precio)?)>
+<!ELEMENT casa (metros ,direccion )>
+<!ELEMENT metros (#PCDATA)>
+<!ELEMENT direccion (texto,direccion)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT propietario (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
