@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Ejercicio10 SYSTEM [
+<!ELEMENT Alumno (DNI?, Nombre+)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>]>
+
+<!-- Documento1-->
+<Alumno>
+    <Nombre>Juan Ruiz</Nombre>
+</Alumno>
+
+<!-- Documento 2:-->
+<Alumno> 
+    <DNI>55324412G</DNI>
+    <Nombre>Pedro Vargas</Nombre>
+</Alumno>
+
+<!-- Documento 3: -->
+<Alumno>
+    <DNI>78645534H</DNI>
+    <DNI>44312211F</DNI>
+</Alumno> 
+
+<!--   Documento 4:-->
+
+<Alumno>
+    <DNI>55313424Y </DNI>
+</Alumno>
+
+
+<!-- Solucion:  -->
