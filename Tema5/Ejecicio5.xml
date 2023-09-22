@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone= "yes"?>
+<!DOCTYPE Practica4 SYSTEM "Ejecicio5.xml/Practica5.dtd">
+
+<libreria>
+    <libro>
+          <titulo>El viento conoce mi nombre</titulo>
+          <autor>Isabel Allende </autor>
+          <autor>Isabel Allende </autor>
+          <editorial>Exitos</editorial>
+      </libro>
+      <libro>
+          <titulo>El cuco de cristal</titulo>
+          <autor>Javier Castillo</autor>
+          <editorial>Suma</editorial>
+      </libro>
+</libreria>
+<!-- Da un fallo por en dtd solo se puede poner solo una vez autor -->

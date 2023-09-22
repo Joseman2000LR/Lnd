@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Ejercicio7 SYSTEM [
+<!ELEMENT Alumno (DNI | Nombre)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>]>
+
+<!-- Documento1-->
+<Alumno>
+    </DNI>
+    <Nombre>Juan Ruiz</Nombre>
+</Alumno>
+
+<!-- Documento 2:-->
+<Alumno> 
+    <DNI>44304238J</DNI>
+    <Nombre>Pedro Vargas</Nombre>
+</Alumno>
+
+<!-- Documento 3: -->
+<Alumno>
+    <Nombre>Eva Murillo</Nombre> 
+</Alumno>
+<!-- Documento 4:-->
+<Alumno>
+    <DNI>44304238J</DNI>
+</Alumno>
+
+<!-- Solucion:  Solo son validos los Documentos 3 y 4 por que podemos poner 
+     Dni  o nombre pero los dos a la vez no se puede -->
