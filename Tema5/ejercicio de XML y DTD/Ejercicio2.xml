@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Ejercicio2 SYSTEM "Ejercicio2.xml.dtd">
+<!DOCTYPE Ejercicio2 SYSTEM "Ejercicio2.dtd">
 <Inmobiliaria>
     <casa>
         <metros></metros>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Alumnos [
+    <!ELEMENT Alumnos (Alumno)+>
+    <!ELEMENT Alumno (Dni | Nombre)+>
+    <!ELEMENT Dni (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+]>
+
+
+<Alumnos>
+    <!-- Documento1-->
+    <Alumno>
+        <Nombre>Juan Ruiz</Nombre>
+    </Alumno>
+    <!--  Documento :2-->
+    <Alumno> Carlos Morales</Alumno>
+    <!-- Documento 3: -->
+    <Alumno>
+        <Dni>45666777V</Dni>
+    </Alumno>
+    <!--   Documento 4:-->
+    <Alumno> </Alumno>
+    <!--   Documento 5:-->
+    <Alumno>
+        <Dni>45666777V</Dni>
+        <Dni>43227377A</Dni>
+        <Nombre>Eva Lopez</Nombre>
+    </Alumno>
+    <!--   Documento 6:-->
+    <Alumno>
+        <Nombre>Ana Suarez</Nombre>
+        <Dni>66555789H</Dni>
+        <Nombre>Luiz Perez</Nombre>
+    </Alumno>
+</Alumnos>
+
+<!-- Solucion:  El 2 y el 4 dan error por que no te deja
+     poner nada en blanco y solo texto tampoco  -->

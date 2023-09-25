@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Ejercicio9 SYSTEM [
+<!DOCTYPE Alumnos  [
+<!ELEMENT Alumnos (Alumno)+>
 <!ELEMENT Alumno (DNI*, Nombre+)>
 <!ELEMENT DNI (#PCDATA)>
 <!ELEMENT Nombre (#PCDATA)>]>
 
-<!-- Documento1-->
-<Alumno>
-    <Nombre>Juan Ruiz</Nombre>
-</Alumno>
+<Alumnos>
+    <!-- Documento1-->
+    <Alumno>
+        <Nombre>Juan Ruiz</Nombre>
+    </Alumno>
 
-<!-- Documento 2:-->
-<Alumno> 
-    <DNI>78999999L</DNI>
-    <Nombre>Pedro Vargas</Nombre>
-</Alumno>
+    <!-- Documento 2:-->
+    <Alumno> 
+        <DNI>78999999L</DNI>
+        <Nombre>Pedro Vargas</Nombre>
+    </Alumno>
 
-<!-- Documento 3: -->
-<Alumno>
-    <DNI>78645534H</DNI>
-    <DNI>44312211F</DNI>
-</Alumno> 
+    <!-- Documento 3: -->
+    <Alumno>
+        <DNI>78645534H</DNI>
+        <DNI>44312211F</DNI>
+    </Alumno> 
 
-<!--   Documento 4:-->
+    <!--   Documento 4:-->
 
-<Alumno>
-    <Nombre>Iker </Nombre>
-    <Nombre>Manuel </Nombre>
-</Alumno>
-
+    <Alumno>
+        <Nombre>Iker </Nombre>
+        <Nombre>Manuel </Nombre>
+    </Alumno>
+</Alumnos>
 
 <!-- Solucion: Los Documentos validos Son 1,2 y 4 por que cumplen bien la sintacis que tienen dtd 
     por el documento 4 repite nombre cuando nombre indica que sale una vez o muchas veces -->

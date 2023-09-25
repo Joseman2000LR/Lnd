@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Alumnos [
+    <!ELEMENT Alumnos (Alumno)+>
+    <!ELEMENT Alumno (#PCDATA | Nombre)*> 
+    <!ELEMENT Nombre (#PCDATA)>
+]>
+
+
+<Alumnos>
+    <!-- Documento1-->
+    <Alumno>
+        <Nombre>Juan Ruiz</Nombre>
+    </Alumno>
+    <Alumno>
+        <Nombre>Pedro Vargas</Nombre>
+    </Alumno>
+    <!-- Documento 3: -->
+    <Alumno>
+        Carlos Morales
+    </Alumno>
+    <!--   Documento 4:-->
+    <Alumno>
+       
+    </Alumno>
+
+</Alumnos>
+
+
+<!-- Solucion: Los unicos que son validos son el 1 y 2 por que tiene que aparecer  Nombre y  Dni puede
+no aparecer   -->

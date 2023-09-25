@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Ejercicio8 SYSTEM [
-<!ELEMENT Alumno (Nombre, Hermano*)>
-<!ELEMENT Nombre (#PCDATA)>
-<!ELEMENT Hermano (#PCDATA)>]>
+<!DOCTYPE Alumnos [
+    <!ELEMENT Alumnos (Alumno)+>
+    <!ELEMENT Alumno (Nombre, Hermano*)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Hermano (#PCDATA)>
+]>
+<Alumnos>
 
-<!-- Documento1-->
-<Alumno>
-    
-    <Nombre>Juan Ruiz</Nombre>
-    <Hermano>Eva Ruiz</Hermano>
-</Alumno>
+    <!-- Documento1-->
+    <Alumno>
 
-<!-- Documento 2:-->
-<Alumno> 
-    <Nombre>Lius Vargas</Nombre>
-    <Nombre>Pedro Vargas</Nombre>
-</Alumno>
+        <Nombre>Juan Ruiz</Nombre>
+        <Hermano>Eva Ruiz</Hermano>
+    </Alumno>
 
-<!-- Documento 3: -->
-<Alumno>
-    <Nombre>Eva Murillo</Nombre> 
+    <!-- Documento 2:-->
+    <Alumno>
+        <Nombre>Lius Vargas</Nombre>
+        <Nombre>Pedro Vargas</Nombre>
+    </Alumno>
 
-</Alumno> 
-<!--   Documento 4:-->
-<Alumno>
-    <Nombre>Iker Lopez</Nombre>
-    <Hermano>Ana Lopez </Hermano>
-    <Hermano>Eva Lopez</Hermano>
-    <Hermano>Alba Lopez</Hermano>
-</Alumno>
+    <!-- Documento 3: -->
+    <Alumno>
+        <Nombre>Eva Murillo</Nombre>
 
+    </Alumno>
+    <!--   Documento 4:-->
+    <Alumno>
+        <Nombre>Iker Lopez</Nombre>
+        <Hermano>Ana Lopez </Hermano>
+        <Hermano>Eva Lopez</Hermano>
+        <Hermano>Alba Lopez</Hermano>
+    </Alumno>
+
+</Alumnos>
 
 <!-- Solucion: solo mson validos el Documentos 1,3 y 4  por que en el documento 2 se repitieron nombre 
     y nombre no se puede repetir solo se puede repetir es Hermanos y en eDocumento 3 esta bien por puede 
