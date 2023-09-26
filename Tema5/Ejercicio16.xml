@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE XXX [
+    <!ELEMENT XXX (AAA+)>
+    <!ELEMENT AAA EMPTY>
+]>
+<XXX>
+    <AAA/>
+    <AAA/>
+</XXX>
+
+<!-- Solucion: si por que el elemnto AAA es un elemnto vacio -->

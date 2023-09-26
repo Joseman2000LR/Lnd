@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE XXX SYSTEM "/Ejercicio14/XXX.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX SYSTEM "XXX.dtd">
 
 <XXX>
     <AAA>
-        <CCC/>
+        <CCC />
+        <DDD />
     </AAA>
+    <BBB>
+        <CCC />
+        <DDD />
+    </BBB>
 </XXX>
-<!-- ARREGLARRRRRRRRR-->
+
+<!-- El Codigo es valido -->
+<!-- ¿Cuál de los elemento AAA ó BBB no es obligatorio?.-->
+<!-- El Elemnto que no es obligatori es AAA por tiene la exprecion de "?"-->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX SYSTEM "XXX.dtd">
+
+<XXX>
+    <AAA />
+    <AAA />
+    <BBB>
+        <CCC />
+        <DDD />
+    </BBB>
+</XXX>
+
+<!-- El Codigo es valido -->
+<!-- No por que el AAA solo puede aparecer cero o una vez  -->

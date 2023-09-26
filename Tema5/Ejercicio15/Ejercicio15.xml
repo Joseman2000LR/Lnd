@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX SYSTEM "XXX.dtd">
+
+<XXX>
+    <AAA>
+        <CCC>Exactamente un elemento.</CCC>
+    </AAA>
+    <AAA>
+        <BBB>
+            <CCC />
+<CCC />
+<CCC />
+        </BBB>
+    </AAA>
+    <BBB />
+    <BBB> Esta es <CCC /> una combinación <CCC /> de <CCC> elementos CCC </CCC> y texto <CCC />. </BBB>
+    <BBB> Sólo texto. </BBB>
+</XXX>
+
+<!-- El Codigo es valido -->
+<!-- Si como se ve en el ejercicico de pdf solo le falta indentacion para que sea legible 
+    pero esta bien estruturado  -->
