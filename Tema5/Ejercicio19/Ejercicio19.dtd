@@ -1,0 +1,9 @@
+<!ATTLIST curso
+director CDATA #REQUIRED
+horario (mañana | tarde | noche) #IMPLIED
+matricula (ordinaria | extraordinaria) “Ordinaria”
+tasas CDATA #FIXED “53€”>
+
+<!-- Se esta definiendo un elemento llamdo curso que contiene unos atributos director, 
+horario ,matricula y tasas y con unas especifiaciones sobre si son obligatorias u opcionales y
+ en algunos sitios con valos predeterminados -->

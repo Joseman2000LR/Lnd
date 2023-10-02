@@ -1,0 +1,8 @@
+<!ELEMENT pelicula (titulo, writer+, productor+, director+, actor*,
+comentarios?)>
+<!ATTLIST pelicula tipo (drama | comedy | adventure | sci-fi | mistery | horror | romance |
+documentary) "drama"
+
+clasificacion (G | PG | PG-13 | R | X) "PG"
+review (1 | 2 | 3 | 4 | 5) "3"
+año CDATA #IMPLIED
