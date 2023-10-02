@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejecicio18 SYSTEM "Ejercicio18.dtd">
+
+<Agenda>
+    <Persona>
+        <Nombre> Eva </Nombre>
+        <Apellido> Lopez </Apellido>
+        <Email> evalopez@minik.org </Email>
+        <Oficina> 2.1 B18 </Oficina>
+        <Telefono> 5555555 </Telefono>
+        <Movil> 5557777 </Movil>
+    </Persona>
+</Agenda>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE XXX [
+    <!ELEMENT LIBRO (Autor, Editorial)>
+    <!ELEMENT Autor (#PCDATA)>
+    <!ELEMENT PELICULA (Actor|Actriz|Director)+>
+    <!ELEMENT PELICULA ((Actor | Actriz)*, Director, Maquillaje?)>
+    <!ELEMENT PELICULA (#PCDATA | Actor)*>
+    <!ELEMENT PELICULA (Titulo, Genero, (Actor | Actriz | Narrador)*)>
+    <!ELEMENT FICHA (Nombre+, Apellido+, Direccion*, foto?,TelFijo*|TelMovil*)
+]>
+
+<!--  Describe con tus palabras qué elementos se están definiendo y
+qué tipo de hijos pueden contener en las siguientes declaraciones de DTD-->

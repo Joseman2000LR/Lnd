@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone= "yes"?>
-<!DOCTYPE Practica4 SYSTEM "Practica4./Practica4.dtd">
+<!DOCTYPE Practica4 SYSTEM "Practica4.dtd">
 
 <libreria>
-    <libro>
+    <libros>
           <titulo>El viento conoce mi nombre</titulo>
           <autor>Isabel Allende </autor>
           <editorial>Exitos</editorial>
-      </libro>
-      <libro>
+      </libros>
+      <libros>
           <titulo>El cuco de cristal</titulo>
           <autor>Javier Castillo</autor>
           <editorial>Suma</editorial>
-      </libro>
+      </libros>
 </libreria>
