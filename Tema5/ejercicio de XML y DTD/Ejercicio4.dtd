@@ -1,0 +1,11 @@
+<!ELEMENT Concesionario (Modelo+)>
+<!ELEMENT Modelo (Motor, Potencia, Consumo_medio, Precio)>
+<!ATTLIST Modelo
+    id CDATA #REQUIRED
+    Modelos_relacionados CDATA #IMPLIED>
+<!ELEMENT Motor (#PCDATA)>
+<!ATTLIST Motor Modelos_relacionados CDATA #IMPLIED>
+<!ELEMENT Potencia (#PCDATA)>
+<!ELEMENT Consumo_medio (#PCDATA)>
+<!ATTLIST Consumo_medio Velocidad_km CDATA #REQUIRED>
+<!ELEMENT Precio (#PCDATA)>

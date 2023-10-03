@@ -1,0 +1,16 @@
+<!ELEMENT Personas (Persona+)>
+<!ELEMENT Persona (Nombre, Apellidos, (Nacimiento | Direcciones), (Varon | Mujer)?)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Nacimiento (Dia, Mes, Anio)>
+<!ELEMENT Dia (#PCDATA)>
+<!ELEMENT Mes (#PCDATA)>
+<!ELEMENT Anio (#PCDATA)>
+<!ELEMENT Direcciones (Direccion+)>
+<!ELEMENT Direccion (Calle, Poblacion, Provincia, CodigoPostal?)>
+<!ELEMENT Calle (#PCDATA)>
+<!ELEMENT Poblacion (#PCDATA)>
+<!ELEMENT Provincia (#PCDATA)>
+<!ELEMENT CodigoPostal (#PCDATA)>
+<!ELEMENT Varon EMPTY>
+<!ELEMENT Mujer EMPTY>

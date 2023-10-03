@@ -1,0 +1,15 @@
+<!ELEMENT Banco (Clientes, Cuentas, Cuenta_Cliente*)>
+<!ELEMENT Clientes (Cliente+)>
+<!ELEMENT Cliente (Nombre, Apellidos, ID)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+
+<!ELEMENT Cuentas (Cuenta+)>
+<!ELEMENT Cuenta (ID, Interes, Saldo)>
+<!ELEMENT Interes (#PCDATA)>
+<!ELEMENT Saldo (#PCDATA)>
+
+<!ELEMENT Cuenta_Cliente (ID, Cliente_ID, Cuenta_ID)>
+<!ELEMENT Cliente_ID (#PCDATA)>
+<!ELEMENT Cuenta_ID (#PCDATA)>

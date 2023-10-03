@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio7 SYSTEM "Ejercicio7.dtd">
+
+<Universidad>
+    <Alumnos>
+        <Alumno idAlumno="alu04">
+            <nombreAlumno>Sofía</nombreAlumno>
+            <Apellidos>Cáceres</Apellidos>
+        </Alumno>
+        <Alumno idAlumno="alu04">
+            <nombreAlumno>Perez</nombreAlumno>
+            <Apellidos>Luis</Apellidos>
+        </Alumno>
+    </Alumnos>
+
+    <Cursos>
+        <Curso CursoID="cur02">
+            <NombreCurso>Lenguaje de Marcas</NombreCurso>
+            <Anio>2016</Anio>
+            <ProfesorID>prof02</ProfesorID>
+        </Curso>
+        <Curso CursoID="cur03">
+            <NombreCurso>Programacion</NombreCurso>
+            <Anio>2026</Anio>
+            <ProfesorID>prof01</ProfesorID>
+        </Curso>
+    </Cursos>
+    <Profesores>
+        <Profesor idProfesor="prof01">
+            <NombreProfesor>Juan Pedro</NombreProfesor>
+            <ApellidosProfesor>luis</ApellidosProfesor>
+        </Profesor>
+        <Profesor idProfesor="prof02">
+            <NombreProfesor>Juan Luís de Todos Los Santos Ramón</NombreProfesor>
+            <ApellidosProfesor>Schmidt</ApellidosProfesor>
+        </Profesor>
+    </Profesores>
+</Universidad>

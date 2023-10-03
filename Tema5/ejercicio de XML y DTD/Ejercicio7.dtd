@@ -1,0 +1,22 @@
+<!ELEMENT Universidades (Universidad)>
+<!ELEMENT Universidad (Alumnos, Cursos, Profesores)>
+<!ELEMENT Alumnos (Alumno+)>
+<!ELEMENT Alumno (nombreAlumno, Apellidos)>
+<!ATTLIST Alumno idAlumno CDATA #REQUIRED>
+<!ELEMENT nombreAlunmo (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+
+<!ELEMENT Cursos (Curso+)>
+<!ELEMENT Curso ( NombreCurso, Anio, ProfesorID)>
+<!ATTLIST Curso CursoID CDATA #REQUIRED>
+<!ELEMENT NombreCurso (#PCDATA)>
+<!ELEMENT Anio (#PCDATA)>
+<!ELEMENT ProfesorID (#PCDATA)>
+<!ELEMENT Anio (#PCDATA)>
+
+<!ELEMENT Profesores (Profesor+)>
+<!ELEMENT Profesor ( NombreProfesor, ApellidosProfesor, CursoID*)>
+<!ATTLIST Profesor idProfesor CDATA #REQUIRED>
+<!ELEMENT NombreProfesor (#PCDATA)>
+<!ELEMENT ApellidosProfesor (#PCDATA)>
+<!ELEMENT CursoID (#PCDATA)>

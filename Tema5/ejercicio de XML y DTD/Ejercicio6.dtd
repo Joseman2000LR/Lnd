@@ -1,0 +1,18 @@
+<!ELEMENT Clientes (Cliente+)>
+<!ELEMENT Cliente (ID, Nombre, Apellido1, Apellido2?)>
+<!ELEMENT Sesiones (Sesion+)>
+<!ELEMENT Sesion (ID, Duracion, UnidadDuracion, Distancia, UnidadDistancia, Localizacion, TipoActividad, Comentario?, Pulsaciones?, ClienteID)>
+
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido1 (#PCDATA)>
+<!ELEMENT Apellido2 (#PCDATA)>
+<!ELEMENT Duracion (#PCDATA)>
+<!ELEMENT UnidadDuracion (#PCDATA)>
+<!ELEMENT Distancia (#PCDATA)>
+<!ELEMENT UnidadDistancia (#PCDATA)>
+<!ELEMENT Localizacion (#PCDATA)>
+<!ELEMENT TipoActividad (#PCDATA)>
+<!ELEMENT Comentario (#PCDATA)>
+<!ELEMENT Pulsaciones (#PCDATA)>
+<!ELEMENT ClienteID (#PCDATA)>

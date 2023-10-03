@@ -2,10 +2,10 @@
 <!DOCTYPE Ejercicio2 SYSTEM "Ejercicio2.dtd">
 <Inmobiliaria>
     <casa>
-        <metros></metros>
+        <metros>120</metros>
         <direccion>
-            <texto></texto>
-            <descripcion></descripcion>
+            <texto>Calle Principal</texto>
+            <descripcion>Casa de dos plantas</descripcion>
         </direccion>
     </casa>
 </Inmobiliaria>
