@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   
 <!ELEMENT libreria (libros)+>
-<!ELEMENT libros (titulo,autor,editoria)>
+<!ELEMENT libros (titulo,autor,editoria)+>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>

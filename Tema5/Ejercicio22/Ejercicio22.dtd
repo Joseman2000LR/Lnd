@@ -1,0 +1,10 @@
+<!ENTITY yo "Tu Nombre y Apellidos">
+<!ENTITY curso "Primero de Administración de Sistemas Informáticos en Red">
+
+<!ELEMENT mensajes (mensaje+)>
+<!ELEMENT mensaje (autor, destinatario+, asunto, texto)>
+
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>

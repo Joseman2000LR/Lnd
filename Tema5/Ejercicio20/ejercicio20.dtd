@@ -5,4 +5,8 @@ documentary) "drama"
 
 clasificacion (G | PG | PG-13 | R | X) "PG"
 review (1 | 2 | 3 | 4 | 5) "3"
-año CDATA #IMPLIED
+año CDATA #IMPLIED >
+
+<!--  define la estructura para el documento de xml con informacion de peliculas y que los elemnetos 
+     "writer," "productor," "director," "actor," y "comentarios" deben estar presentes al menos una vez,
+      mientras que "actor" y "comentarios" son opcionales.-->

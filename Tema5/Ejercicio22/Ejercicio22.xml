@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajes SYSTEM "./Ejercicio22.dtd">
+
+<mensajes>
+    <mensaje>
+        <autor>&yo;</autor>
+        <destinatario>Amigo 1</destinatario>
+        <asunto>Saludos desde &curso;</asunto>
+        <texto>Hola, ¿cómo estás? Espero que te vaya bien en &curso; .</texto>
+    </mensaje>
+    <mensaje>
+        <autor>Amigo 2</autor>
+        <destinatario>&yo;</destinatario>
+        <asunto>Pregunta sobre el proyecto</asunto>
+        <texto> Hola &yo;,tengo una pregunta sobre el proyecto que estamos haciendo juntos.</texto>
+    </mensaje>
+    <mensaje>
+        <autor>Profesor</autor>
+        <destinatario>&yo;</destinatario>
+        <asunto>Recordatorio de tarea</asunto>
+        <texto>Hola &yo;, este es un recordatorio para la tarea que debes completar antes de la
+            próxima clase.</texto>
+    </mensaje>
+</mensajes>

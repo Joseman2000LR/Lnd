@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mietiqueta [
+    <!ELEMENT mietiqueta (#PCDATA)>
+    <!ATTLIST mietiqueta
+        AtribA CDATA #IMPLIED
+        AtribB NMTOKEN #REQUIRED
+        AtribC NMTOKENS #REQUIRED>
+]>
+
+   
+<mietiqueta AtribB="12.5">Texto </mietiqueta>
+
+<mietiqueta AtribB="12.5" AtribC="3:16">Texto </mietiqueta>
+
+<mietiqueta AtribA="hola" AtribB="12.5" AtribC="3 6">Texto </mietiqueta>
+
+<mietiqueta AtribA="17:5" AtribB="17,5" AtribC="2 3">Texto </mietiqueta>
+
+
+<mietiqueta AtribA="aa" AtribB="17 5" AtribC="hola">Texto </mietiqueta>
+<!-- LOs docuemtos que estan bien son el 1 y el 2 por que los demas no cumplen 
+    con los requisitos del dtd ni en la etiqueta "mietiqueta"  -->
