@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE datos [
-    <!ENTITY  contacto "direccion, telefono">
-    <!ELEMENT datos (alumno+,centro)>
-    <!ELEMENT alumno (nombre)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT centro (denominacion)>
-    <!ELEMENT denominacion (#PCDATA)>
+    <!ENTITY % contacto "direccion, telefono">
+    <!ELEMENT alumno (nombre, (%contacto;))>
+    <!ELEMENT centro (denominacion, (%contacto;))>
+
     <!ELEMENT direccion (#PCDATA)>
     <!ELEMENT telefono (#PCDATA)>
-    
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT denominacion (#PCDATA)>
 ]>
 
 <datos>
