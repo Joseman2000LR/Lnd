@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0">
+        <channel>
+            <title>Mi canal de rss </title>
+            <link>url de mi pagina web</link>
+            <descripcion>noticia de actualizacion</descripcion>
+            <item>
+                <title>noticia de acualidad</title>
+                <link>https://elpais.com</link>
+                <descripcion>noticia del pais </descripcion>
+            </item>
+        </channel>
+    </rss>
