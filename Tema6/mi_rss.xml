@@ -2,7 +2,7 @@
     <rss version="2.0">
         <channel>
             <title>Mi canal de rss </title>
-            <link>url de mi pagina web</link>
+            <link>https://elpais.com</link>
             <descripcion>noticia de actualizacion</descripcion>
             <item>
                 <title>noticia de acualidad</title>
