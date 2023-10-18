@@ -1,0 +1,1939 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+	<head>
+<title>Educación | Consejería de Educación, Formación Profesional, Actividad Física y Deportes | Gobierno de Canarias</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="revisit-after" content="7 days"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+
+<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css"  rel="stylesheet" type="text/css" media="print" />
+<script type="text/javascript">
+	//Carga dinamica de css dependiendo de si se accede a traves de http o https
+	//no se pueden referenciar de forma relativa porque desde el offline del ade
+	//la ruta empieza por opencms. y los css son externos.
+	(function() {
+		
+		var entornoPRE = document.location.origin.includes("pre");
+		
+		var prefix = document.location.protocol + (entornoPRE? "//www-pre" : "//www")+".gobiernodecanarias.org/gcc/";
+		var estilos = document.createElement("link"); estilos.type = "text/css"; estilos.rel = "stylesheet"; estilos.media="screen";
+		estilos.href = prefix + "css/estilos.css";
+		var voz = document.createElement("link"); voz.type = "text/css"; voz.rel = "stylesheet"; voz.media="aural";
+		voz.href = prefix + "css/voz.css";
+		var favicon = document.createElement("link"); favicon.rel = "shortcut icon";
+		favicon.href = prefix + "img/favicon.ico";
+		var especifico = document.createElement("link"); especifico.type = "text/css"; especifico.rel = "stylesheet"; especifico.media="screen";
+		especifico.href = prefix + "css/especifico.css";
+		var s = document.getElementsByTagName("link")[0];
+		s.parentNode.insertBefore(favicon, s);
+		s.parentNode.insertBefore(especifico, s);
+		s.parentNode.insertBefore(voz, s);
+		s.parentNode.insertBefore(estilos, s);
+	})();
+</script>
+<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.css"  rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+
+
+
+
+
+
+
+	<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/my_readspeaker.css"  rel="stylesheet" type="text/css" media="screen" />
+	<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/animatedborder.css"  rel="stylesheet" type="text/css" media="screen" />	
+
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.css" />
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/main_modernizacion.css" />
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/mcs-noticias-eventos/mcs-noticias-eventos.css" />
+
+
+
+
+
+
+
+
+	<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/my_readspeaker.css"  rel="stylesheet" type="text/css" media="screen" />
+	<link href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/animatedborder.css"  rel="stylesheet" type="text/css" media="screen" />	
+
+
+<style>
+	@font-face {
+	  font-family: 'Open Sans';
+	  src: url(/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/fonts/OpenSans.woff) format('woff');
+	}
+	@font-face {
+	  font-family: 'Open Sans Semibold';
+	  src: url(/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/fonts/OpenSans-Semibold.woff) format('woff');
+	}
+	@font-face {
+	  font-family: 'Open Sans Bold';
+	  src: url(/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/fonts/OpenSans-Bold.woff) format('woff');
+	}
+	@font-face {
+	  font-family: 'Open Sans Extrabold';
+	  src: url(/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/fonts/OpenSans-ExtraBold.woff) format('woff');
+	}
+</style>
+		
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui-datepicker-es.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui-autocomplete_modernizacion.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/uweb-expand-collapse.min.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery-maskedinput.min.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.min.js"></script>
+
+
+
+
+
+	<script type="text/javascript" src="//f1-eu.readspeaker.com/script/7294/webReader/webReader.js?pids=wr&dload=DocReader.AutoAdd"></script>
+	<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.animatedborder.js"></script>
+	<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/my_readspeaker.js"></script>	
+
+
+
+	<script type="text/javascript" src="https://www--gobiernodecanarias--org.insuit.net/i4tservice/insuit-app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/truncate.js"></script>
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"></link>
+		
+		
+		
+		
+		
+		
+
+
+	
+	<script async="1" type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-LFZ426XTRZ"></script>
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+			gtag('config', 'G-LFZ426XTRZ', { 'anonymize_ip': true });
+		
+	</script>
+
+		
+	</head>
+	<body id="body_modernizacion">
+		
+<style id="antiClickjacking">body{display:none !important;}</style>
+<script type="text/javascript">
+	if (self === top) {
+		var antiClickjacking = document.getElementById("antiClickjacking");
+		antiClickjacking.parentNode.removeChild(antiClickjacking);
+	} else {
+		top.location = self.location;
+	}
+</script>
+		
+
+	
+		<div id="aviso-cookies">
+			<h2>INFORMACI&Oacute;N IMPORTANTE SOBRE COOKIES</h2>
+			<p>Este portal web utiliza cookies propias y de terceros para recopilar informaci&oacute;n que ayuda a optimizar su visita. Las cookies no se utilizan para recoger informaci&oacute;n de car&aacute;cter personal. Usted puede permitir su uso o rechazarlo, tambi&eacute;n puede cambiar su configuraci&oacute;n siempre que lo desee. Dispone de m&aacute;s informaci&oacute;n en nuestra <a href="/educacion/web/politica-de-cookies/" target="_self">Pol&iacute;tica de Cookies</a>.</p>
+			<button type="button" class="btn" onclick="ocultarAviso()">Cerrar aviso</button>
+		</div>
+		<script>
+			function readCookie(a){
+				var d=[],
+					e=document.cookie.split(";");
+				a=RegExp("^\\s*"+a+"=\\s*(.*?)\\s*$");
+				for(var b=0;b<e.length;b++){
+					var f=e[b].match(a);
+					f&&d.push(f[1])
+				}
+				return d
+			}
+			
+			function ocultarAviso() {
+				document.getElementById('aviso-cookies').style.display = 'none';
+				document.cookie='cookies_allowed=true;expires=Tue, 01 Jan 2030 00:00:00 GMT;path=/';
+			}
+			
+			if(readCookie('cookies_allowed') == 'true') {
+				document.getElementById('aviso-cookies').style.display = 'none';
+			}
+		</script>
+	
+		<div id="SITE_CONTAINER">
+			<header  id="headercontainer" >
+
+
+
+
+
+
+	
+		<div id="3dd047d8-5411-11ec-a411-0050568aba16" class="contenedor contenedor-cabecera">
+		
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/mcs-cabecera/mcs-cabecera.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/truncate.js"></script>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/mcs-cabecera/mcs-cabecera.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"><div class="enlace-superior">
+			<div class="cont">
+				<a href="#leftcontainer">Ir a contenido principal</a>
+			</div>
+		</div>
+		<div id="cabecera_modernizacion" class="container cabecera">
+		<div class="col-sm-9 col-xs-10">
+				<div class="row">
+					<div class="site-branding">
+						<h1 class="logo">
+								<a href="https://www.gobiernodecanarias.org/principal/" target="_blank" accesskey="l" title="Página principal del Gobierno de Canarias - Opciones de accesibilidad (tecla de acceso: l)">Gobierno de Canarias</a>       		           
+										</h1>
+						<h2 class="cons-efpafd">
+										<a href="/eucd/index.html" target="" accesskey="o" title="Página principal de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias - Opciones de accesibilidad (tecla de acceso: o)">Página web de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias</a>           
+												</h2>
+								</div>
+				</div>
+			</div>
+			<div class="navbar-icons visible-xs" style="display: none">
+				<i class="fas fa-bars" title="Abrir menÃº"></i>
+			</div>
+			<div class="search visible-lg visible-md visible-sm">
+				<form id="frm_search" method="GET" action='https://www.gobiernodecanarias.org/buscador'>
+						<input type="hidden" name="fbt" value="false" />
+						<input type="text" name='query' placeholder="buscar">
+						<input type="image" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/mcs-cabecera/images/menu.png" title="Buscar" />
+					</form>
+				</div>
+			<nav class="site-navigation">
+				<div class="menu-primary-navigation-container">
+					<ul id="menu-primary-navigation" class="nav-menu">
+						<li class="menu-item ">
+									<a href="/eucd/index.html" title="Ir a página de inicio de la Consejería de Educación, Universidades, Cultura y Deportes(tecla de acceso: 0)" accesskey="0" target="">INICIO</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/eucd/consejeria/index.html" title="Ir a información general de la Consejería (tecla de acceso: 2)" accesskey="2" target="">LA CONSEJERÍA</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/educacion/web/alumnado-familias/index.html" title="Ir a la página de Alumnado y familias (tecla de acceso: 3)" accesskey="3" target="">ALUMNADO Y FAMILIAS</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/educacion/web/personal/index.html" title="Ir a la página de Personal docente y personal laboral y funcionario de administración y servicios (tecla de acceso: 4)" accesskey="4" target="">PERSONAL</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/educacion/web/centros/index.html" title="Ir a la página de Centros docentes y no docentes (tecla de acceso: 5)" accesskey="5" target="">CENTROS</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/educacion/web/ensenanzas/index.html" title="Ir a la página de Enseñanzas (tecla de acceso: 6)" accesskey="6" target="">ENSEÑANZAS</a>
+								</li>
+							<li class="menu-item ">
+									<a href="/educacion/web/buscadores/index.html" title="Ir a los buscadores de contenidos en la web (tecla de acceso: 7)" accesskey="7" target="">[Buscadores]</a>
+								</li>
+							<li class="menu-item ">
+									<a href="https://www.gobiernodecanarias.net/educacion/loginportal/" title="Ir al PORTAL DOCENTE y de CENTROS EDUCATIVOS PÚBLICOS (tecla de acceso: 8)" accesskey="8" target="_blank">[Intranet | Centros]</a>
+								</li>
+							<div style="clear:both"></div>
+					</ul>
+				</div>
+			</nav>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+	</div>
+
+	
+	
+</header>
+			<div class="read-superior">
+				<div class="read container">
+					
+
+
+	<script type="text/javascript" src="//f1-eu.readspeaker.com/script/7294/webReader/webReader.js?pids=wr&dload=DocReader.AutoAdd"></script>
+	<script type="text/javascript" src="//media.readspeaker.com/scripts/formreader/fr.js"></script>
+	<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.animatedborder.js"></script>
+	<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/my_readspeaker.js"></script>
+	
+	<div id="rs_banner">
+		<div id="repro_readspeaker">
+			<div id="readspeaker_button" class="rs_skip rsbtn rs_preserve">
+				<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Escucha esta p&aacute;gina utilizando ReadSpeaker webReader" href="">
+					<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Escuchar</span></span></span>
+					<span class="rsbtn_right rsimg rsplay rspart"></span>
+				</a>
+			</div>
+		</div>
+		<div style="clear: left"></div>
+	</div>
+
+					<div  id="redessocialescontainer" >
+
+
+
+
+
+
+<div class="redes_sociales_div">
+	
+		
+		
+		
+		<a href="https://www.facebook.com/EDUC.gobcan/" title="Canal de Facebook" target="_blank">
+				<img
+					src="https://www.gobiernodecanarias.org/gcc/img/iconos/facebook_20x20.png"
+					title="Canal de Facebook"
+					alt="Canal de Facebook" >
+		</a>
+	
+		
+		
+		
+		<a href="https://twitter.com/EducacionCan" title="Canal de Twitter" target="_blank">
+				<img
+					src="https://www.gobiernodecanarias.org/gcc/img/iconos/twitter_20x20.png"
+					title="Canal de Twitter"
+					alt="Canal de Twitter" >
+		</a>
+	
+		
+		
+		
+		<a href="https://www.youtube.com/channel/UCMuqU0a0OkOVT36kfmqyzPQ" title="Canal de Youtube" target="_blank">
+				<img
+					src="https://www.gobiernodecanarias.org/gcc/img/iconos/youtube_20x20.png"
+					title="Canal de Youtube"
+					alt="Canal de Youtube" >
+		</a>
+	
+</div>
+
+</div>
+				</div>
+				<div class="container">
+					<div  id="bannercontainer" >
+
+
+
+
+
+
+	
+		
+
+
+
+
+	<div id="banner-modernizacion-div">
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner-modernizacion.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css">
+	  	<div  style="position:relative">
+		
+			
+		
+			<noscript>
+				<style type="text/css">
+					.banner_textos {display:none;}
+					.banner_imagenes {display:none;}
+					.banner_titulos {display:none;}
+				</style>
+				<p>Usted tiene javascript desactivado por lo que algunos elementos de la p&aacute;gina puede que no funcionen correctamente.</p>
+			</noscript>
+        	
+				
+					
+					<div id="banner-modernizacion_imagenes" class="banner_imagenes">
+						
+							 
+								
+								
+								
+									
+									
+										
+											<img class="banner" title="Educación" src="/cmsweb/export/sites/educacion/web/_galerias/banner1140/1140x368banner-educacion.png" alt=""""/>
+										
+									
+								
+							
+												
+					</div>
+					<div class="banner_botones">
+						
+							<img src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/banner/prev-button_modernizacion.png" id="previous" title="Anterior" alt="Anterior" />
+						
+						<div id="banner-modernizacion_titulos" class="banner_titulos">
+							
+								 
+									
+									
+									
+										
+										
+										<a  target='' accesskey="" title="">
+											<span>Educación</span>
+										</a>
+									
+								
+							
+						</div>
+						
+							<img src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/banner/next-button_modernizacion.png" id="next" title="Siguiente" alt="Siguiente" />
+						
+					</div>
+					
+						<div class="banner_indicadores">
+							
+							
+								 
+									
+									
+									
+									
+										
+											<span class="active"></span>
+											
+										
+										
+									
+									
+								
+							
+						</div>
+					
+					<script>
+						$(document).ready(function() {
+							var cycle = $('#banner-modernizacion_textos, #banner-modernizacion_imagenes, #banner-modernizacion_titulos')
+								.cycle({
+									fx: 'fade',
+									
+										timeout: 3000,
+										speed: 0,
+									
+									prev: 'img#previous',
+									next: 'img#next',
+									cleartypeNoBg: true,
+									slideResize: true,
+									containerResize: 1,
+									width: 'fit',
+									after: function(currSlideElement, nextSlideElement, options, forwardFlag) {
+										$(".banner_indicadores span").removeClass("active");
+										$(".banner_indicadores").children().eq(options.currSlide).addClass("active");
+									}
+								});
+							$(".banner_indicadores span").each(function(index, elem) {
+								$(elem).click(function() {
+									cycle.cycle(index);
+								});
+							});
+							
+							$(window).resize(function(){
+								$('#banner-modernizacion_textos, #banner-modernizacion_imagenes, #banner-modernizacion_titulos').cycle('destroy');
+								$('#banner-modernizacion_textos, #banner-modernizacion_imagenes, #banner-modernizacion_titulos').each(function(){
+									newWidth = $(this).parent('div').width();
+									$(this).width(newWidth);
+									$(this).height('auto');
+									$(this).children('div').width(newWidth);
+									$(this).children('div').height('auto');
+								});
+								$('#banner-modernizacion_textos, #banner-modernizacion_imagenes, #banner-modernizacion_titulos').cycle({
+									fx: 'fade',
+									
+										timeout: 3000,
+										speed: 0,
+									
+									prev: 'img#previous',
+									next: 'img#next',
+									cleartypeNoBg: true,
+									slideResize: true,
+									containerResize: 1,
+									width: 'fit',
+									after: function(currSlideElement, nextSlideElement, options, forwardFlag) {
+										$(".banner_indicadores span").removeClass("active");
+										$(".banner_indicadores").children().eq(options.currSlide).addClass("active");
+									}
+								});
+							});
+						});
+					</script>
+				
+				
+			
+		
+		</div>
+	</div>
+
+
+	
+	
+</div>
+				</div>
+			</div>
+			<div  id="precontainer" ><div class="barra-destacados">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/universidades/becas_ayudas/becas-gobierno-canarias/ayudas_transporte/curso22_23/comunicaciones/index.html" target="" accesskey="" title="Ir al enlace de Ayudas al desplazamiento de estudios universitarios 2022-2023">
+										<img src="/cmsweb/export/sites/educacion/web/_galerias/destacados40x/ico_40x40_ayudas_transportes.png" />
+										<span>Ayudas al desplazamiento de estudios universitarios 2022-2023</span>
+									</a>
+								</div>
+							<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/educacion/web/bachillerato/pau/pau_2024/index.html" target="" accesskey="" title="Ir al enlace de PAU: Prueba de Acceso a la Universidad">
+										<img src="/cmsweb/export/sites/educacion/web/_galerias/destacados40x/img_40x40_pruebas_pau.png" />
+										<span>PAU: Prueba de Acceso a la Universidad </span>
+									</a>
+								</div>
+							<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/educacion/web/personal/docente/oferta/interinos-sustitutos/index.html" target="" accesskey="" title="Ir al enlace de los Procedimientos de listas de empleo 2023.">
+										<img src="/cmsweb/export/sites/educacion/web/_galerias/destacados40x/40px_listas-empleo1.jpg" />
+										<span>Listas de empleo 2023</span>
+									</a>
+								</div>
+							<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/universidades/becas_ayudas/becas-gobierno-canarias/estudios-universitarios/curso_2023-2024/index.html" target="" accesskey="" title="Ir al enlace de Becas para estudios universitarios 2023-2024">
+										<img src="/cmsweb/export/sites/universidades/_galerias/destacados40x/ico40px_ayudas_subvenciones.png" />
+										<span>Convocatoria de becas universitarias 2023-2024</span>
+									</a>
+								</div>
+							<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/educacion/web/centros/calendario_escolar/index.html" target="_blank" accesskey="" title="Ir al enlace de Calendario escolar 2023-2024">
+										<img src="/cmsweb/export/sites/educacion/web/_galerias/destacados40x/40X40px_calendario_escolar.png" />
+										<span>Calendario escolar 2023-2024</span>
+									</a>
+								</div>
+							<div class="col-md-2">
+									<a class="destacado-barra-destacados" href="/educacion/web/contenidos-destacados/index.html" target="_blank" accesskey="" title="Ir a Ver más destacados de Educación.">
+										<img src="/cmsweb/export/sites/educacion/web/_galerias/destacados40x/40x40_ver_mas.png" />
+										<span>Ver más destacados</span>
+									</a>
+								</div>
+							</div>
+		</div>
+	</div>
+</div>
+			
+			
+				
+				
+				
+				
+				<div class="miga-pan">
+					<div class="container">
+						<ul>
+							
+								
+								
+									
+								
+								
+								
+								
+							
+								
+								
+									
+								
+								
+								
+								
+							
+								
+								
+								
+								
+								
+									
+										<li class="">&nbsp;>&nbsp;</li>
+									
+									<li class=""><a href="/educacion/web/">Educación</a></li>
+								
+							
+						</ul>
+					</div>		
+				</div>
+			
+			<div  id="leftcontainer" >
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+	
+	<div id="fcb8c854-5439-11ec-a411-0050568aba16" role="navigation" class="caja_lateral_modernizacion" aria-labelledby="fcb8c854-5439-11ec-a411-0050568aba16_title">
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral_modernizacion.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"></link>
+		<div class="container">
+			<div class="contenedor">
+				
+				
+				
+					<div>
+					<div class="bloque-apartados">
+					
+						
+							
+								
+							
+							
+							
+						
+						
+									        
+							
+
+
+
+
+
+
+	
+		
+		
+	
+
+							
+									
+								<h2 class="titulo-modernizacion">Servicios</h2>
+								
+									
+										
+										
+											<div class="contenido-apartados">
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/eucd/servicios/servicios_generales/app/index.html" target="" accesskey="" title="Acceder a los servicios de las Aplicaciones para dispositivos móviles - APP">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" """ src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-app-60x60.png" alt=" """/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Aplicaciones para dispositivos móviles - APP 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/consultas_becas_ayudas/index.html" target="" accesskey="" title="Consultas sobre becas, ayudas y subvenciones">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-Consultas-becas-ayudas60.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Consultas sobre becas, ayudas y subvenciones 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/inspeccion_educativa/index.html" target="" accesskey="" title="Ir al enlace de la Inspección de Educación de Canarias">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-inspeccion-educa60x60.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Inspección de Educación 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/pincel/index.html" target="" accesskey="" title="Acceder a la información sobre Pincel Ekade. Programa Informático para la gestión de Centros Educativos">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-pincel-60x60.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Pincel Ekade 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/recursos_educativos/index.html" target="" accesskey="" title="Acceder al Servicio de Recursos educativos">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-recursos-educativos60x60.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Recursos educativos 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado azul enlace-azul   '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/tramites/index.html" target="" accesskey="" title="Acceder al Servicio de Trámites">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/servicios/serv-tramites-60x60.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Trámites 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+											</div>
+										
+									
+								
+							
+						
+						
+							<div class="dif">
+								
+									
+									
+									
+									
+									<a href="/eucd/servicios/servicios_educacion/index.html" target="" accesskey="" title="Ir al enlace de todos los servicios de Educación">Ver+servicios</a>
+								 
+								 
+							</div>
+						
+					 
+					
+				</div>
+				</div>
+			
+			
+				<div style="clear:both"></div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+	
+	<div id="2a35df98-ac1f-11ec-b635-0050568aba16" role="navigation" class="caja_lateral_modernizacion" aria-labelledby="2a35df98-ac1f-11ec-b635-0050568aba16_title">
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral_modernizacion.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"></link>
+		<div class="container">
+			<div class="contenedor">
+				
+				
+				
+					<div>
+					<div class="bloque-apartados">
+					
+						
+							
+								
+							
+							
+							
+						
+						
+									        
+							
+
+
+
+
+
+
+	
+		
+		
+	
+
+							
+									
+								<h2 class="titulo-modernizacion">Materias: Educación</h2>
+								
+									
+										
+										
+											<div class="contenido-apartados">
+												
+													
+													
+													<div class='apartado materias_imagenes    gris_imagenes col-xs-6 col-sm-4 col-md-3 col-lg-3'>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/alumnado-familias/index.html" target="" accesskey="" title="Acceder a la información para alumnado y familias: admisión y matrícula, becas, ayudas y subvenciones, calendario escolar, concursos educativos, enseñanzas, formación y recursos, protocolos, premios, pruebas, trámites y participación en asociaciones de alumnado, AMPA, Consejos escolares y sociales.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" """ src="/cmsweb/export/sites/educacion/web/_galerias/iconos55y50/materias-educacion/tema-familias55x55.png" alt=" """/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	ALUMNADO Y FAMILIAS 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado materias_imagenes    gris_imagenes col-xs-6 col-sm-4 col-md-3 col-lg-3'>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/personal/index.html" target="" accesskey="" title="Acceder a la información para personal docente (procedimientos, oferta de empleo, equipos directivos, asesoramiento,…), y personal laboral y funcionarios de administración y servicios, formación del profesorado (áreas de formación, formación en CEP, homologación, porfolio de formación,…), prevención de riesgos laborales, sindicatos y asociaciones, servicios, recursos educativos,…">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" """ src="/cmsweb/export/sites/educacion/web/_galerias/iconos55y50/materias-educacion/tema-personal55x55.png" alt=" """/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	PERSONAL 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado materias_imagenes    gris_imagenes col-xs-6 col-sm-4 col-md-3 col-lg-3'>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/centros/index.html" target="" accesskey="" title="Acceder a la información para centros: enseñanzas, calendario escolar, centros educativos y del profesorado, gestión de centros, protocolos, seguros, buscador de centros y oferta educativa, creación y autorización de centros privados...">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" """ src="/cmsweb/export/sites/educacion/web/_galerias/iconos55y50/materias-educacion/tema-centros55x55.png" alt=" """/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	CENTROS 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado materias_imagenes    gris_imagenes col-xs-6 col-sm-4 col-md-3 col-lg-3'>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/ensenanzas/index.html" target="" accesskey="" title="Acceder a Estudios no universitarios en Canarias: Educación Infantil, Primaria, Secundaria, Formación Profesional, Artística, Idiomas, Deportivas, Educación de Personas Adultas.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/iconos55y50/materias-alumnado_familias/tema-ensenanzas55x55.png" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	ENSEÑANZAS 
+																	 
+																</p>
+																
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+											</div>
+										
+									
+								
+							
+						
+						
+					 
+					
+				</div>
+				</div>
+			
+			
+				<div style="clear:both"></div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+</div>
+			<center  id="centercontainer" >
+
+
+
+
+
+
+	
+		<div id="06b495b4-541f-11ec-a411-0050568aba16" class="container eventos">
+		<div class="eventos">
+				<h2 class="titulo-modernizacion">
+					Novedades: Educación</h2>
+				<ul class="eventos-listado">
+							<li class="evento">
+									<a href="https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/patrimonio-social-cultural-historico-canario/convocatorias/proyectos-de-ensenanza-del-timple/">
+									<h5>18/10/2023 [Programas, proyectos y redes] Convocatoria del proyecto educativo para la enseñanza del timple, curso 2023-2024</h5>
+										<div><p style="line-height: 115%; margin-bottom: 0cm;" align="justify"><em><span style="font-family: Arial, serif;">Resolución de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, por la que se aprueba la convocatoria del proyecto educativo para la enseñanza del timple dirigido al alumnado de centros educativos no universitarios sostenidos con fondos públicos de la Comunidad Autónoma de Canarias durante el curso escolar 2023-2024.</span></em></p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="https://igrajsezmano.eu/bodiumetnik/">
+									<h5>18/10/2023 [Concursos, premios y actividades] Convocatoria 17º Concurso Internacional de Arte "Sé un Artista"</h5>
+										<div><p>El año del festival internacional 'Play with me' incluye este evento organizado por el Centro Janez Levec de Liubliana y la Asociación para la Cultura de la Inclusión, donde pueden participar jardines de infancia, escuelas infantiles, organizaciones, e instituciones... para dibujar, pintar y pegar una obra de arte sobre dos temas: sobre dos temas, "somos diferentes" y "juega conmigo". La fecha límite para presentar obras es el <strong>1 de diciembre de 2023. </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_IIUmkCzIjU8NBczyiCJopc4vkjNgDl0tFda76m5QjnK57g/viewform" target="_blank" rel="noopener noreferrer"><span style="color: #0000ff;">Acceder al formulario de inscripción. </span></a></p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="https://www.gobiernodecanarias.org/medusa/perfeccionamiento/areapersonal/aulatic.php?id=10">
+									<h5>18/10/2023 [Formación] Convocatoria del procedimiento de Acreditación para la Evaluación Institucional, curso 2023-2024.</h5>
+										<div><p>RESOLUCIÓN - Nº: 4476 / 2023 - Tomo: 1 - Libro: 289 - Fecha: 13/10/2023.</p>
+<p><em>Resolución conjunta de la Dirección General de Personal y Formación del Profesorado, y de la Agencia Canaria de Calidad Universitaria y Evaluación Educativa, por la que se convoca y se regula el procedimiento de Acreditación para la Evaluación Institucional en los centros educativos públicos no universitarios de la Comunidad Autónoma de Canarias durante el curso escolar 2023-2024.</em></p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="https://www.gobiernodecanarias.org/educacion/web/alumnado-familias/concursos-educativos/43-edicion-del-concurso-que-es-un-rey-para-ti/index.html#">
+									<h5>18/10/2023 [Concursos, premios y actividades] Convocatoria del 43º Concurso ¿Qué es un Rey para ti?</h5>
+										<div><p>Concurso dirigido a alumnado de 3º, 4º, 5º y 6º de Educación Primaria y Educación Especial de cualquier centro educativo del territorio español. El tema de los trabajos podrá centrarse en la figura de S.M. el Rey y en el papel de La Corona en la estructura del Estado, o también en la figura de S.A.R. La Princesa de Asturias como garante de la continuidad institucional. Plazo de presentación de solicitudes: <strong>desde el 15 de octubre de 2023 hasta el 15 de enero de 2024.</strong> </p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="https://www.gobiernodecanarias.org/educacion/web/servicios/comedores_escolares/instr-comedores-escolares/index.html">
+									<h5>18/10/2023 [Organización y funcionamiento] Modificación de las Instrucciones de organización y funcionamiento de los comedores escolares, curso 2023-2024.</h5>
+										<div><p>RESOLUCIÓN - Nº: 1565 / 2023 - Tomo: 1 - Libro: 211 - Fecha: 18/10/2023</p>
+<p><em>Informe-Propuesta y Resolución de la Directora General de Administración de Centros, Escolarización y Servicios Complementarios por la que se modifica la Resolución n.º 1034/2023 de 13 de junio de 2023 por la que aprueban las instrucciones de organización y funcionamiento de los comedores escolares de los centros docentes públicos no universitarios para el curso escolar 2023-2024 </em> (<strong>Pendiente de publicación en BOC</strong>).</p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/patrimonio-social-cultural-historico-canario/convocatorias/patrimonio_emociones/">
+									<h5>18/10/2023 [Programas, proyectos y redes] Convocatoria del proyecto educativo: Un patrimonio de emociones, curso 2023-2024</h5>
+										<div><p><em>Resolución de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, por la que se aprueba la convocatoria del proyecto de innovación Un Patrimonio de Emociones dirigido al alumnado de los centros sostenidos con fondos públicos no universitarios que imparten educación primaria en la Comunidad Autónoma de Canarias para su desarrollo durante el curso escolar 2023-2024.</em> Plazo de presentación de solicitudes:<strong> del 19 de octubre al 2 de noviembre de 2023.</strong><em> <br /></em></p></div>
+									</a>
+									</li>
+							<li class="evento">
+									<a href="http://www.gobiernodecanarias.org/boc/2023/205/007.html">
+									<h5>18/10/2023 [Becas, ayudas y subvenciones] Ayudas de libros de texto y materiales didácticos, curso 2023-2024: segunda modificación de umbrales de renta de las unidades familiares </h5>
+										<div><p><em>Resolución de 3 de octubre de 2023, por la que se aprueba la segunda modificación de la distribución definitiva de umbrales de renta de las unidades familiares de la Resolución de 6 de julio de 2023, de la Dirección General de Centros, Infraestructura y Promoción Educativa, que aprueba la modificación de crédito y distribución de umbrales del préstamo de ayudas de libros de texto y materiales didácticos para el curso escolar 2023/2024.</em></p></div>
+									</a>
+									</li>
+							</ul>
+					<div class="mas_sobre">  
+						<a href="/eucd/novedades_consejeria/index.html" target="" accesskey="" title="Ver todas las novedades de Educación, Universidades, Cultura y Deportes">Ver+novedades</a>
+							</div>
+				</div>
+		<div style="clear:both"></div>
+	</div>
+
+	
+	
+</center>
+			<div  id="rightcontainer" >
+
+
+
+
+
+
+	
+		
+		<div id="uweb_lector_rss_149aaf20-4c57-11ec-8fa4-0050568aba16" class="container noticias">
+		
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/tipo_lector_rss_modernizacion.js"></script>
+<script type="text/javascript" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/truncate.js"></script><h2 class="titulo-modernizacion">
+			Noticias</h2>
+		<ul id="rssContent">
+			<img title="Cargando" alt="Cargando" src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/cargando.gif" />
+		</ul>
+		<div style="clear:both"></div>				
+		<script type="text/javascript">
+			$(function () {
+				$('#uweb_lector_rss_149aaf20-4c57-11ec-8fa4-0050568aba16 #rssContent').FeedEk({
+					Feeder: '/eucd/feed2json.jsp',
+					FeedUrl: 'https://www3.gobiernodecanarias.org/noticias/category/consejeria-educacion-universidades-cultura-y-deportes/educacion-y-universidades/feed/pgcnrss2image',
+					
+						MaxCount: 4,
+					
+						ShowDesc: false,
+						ShowPubDate: true,
+					
+					Linkable: true,
+					ErrorMessage: 'Error 01: La ruta https://www3.gobiernodecanarias.org/noticias/category/consejeria-educacion-universidades-cultura-y-deportes/educacion-y-universidades/feed/pgcnrss2image no es un RSS v&aacute;lido.'
+				});
+			});
+		</script>
+		<div class="mas_sobre">
+				<a href="https://www3.gobiernodecanarias.org/noticias/category/consejeria-educacion-universidades-cultura-y-deportes/educacion-y-universidades/" target="_blank" accesskey="" title="Portal de noticias de la Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias.">Ver + noticias</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+
+	
+	
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+	
+	<div id="1160f76c-5435-11ec-a411-0050568aba16" role="navigation" class="caja_lateral_modernizacion" aria-labelledby="1160f76c-5435-11ec-a411-0050568aba16_title">
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral_modernizacion.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"></link>
+		<div class="container">
+			<div class="contenedor">
+				
+				
+				
+					<div>
+					<div class="bloque-apartados">
+					
+						
+							
+								
+							
+							
+							
+						
+						
+									        
+							
+
+
+
+
+
+
+	
+		
+		
+	
+
+							
+									
+								<h2 class="titulo-modernizacion">De interés</h2>
+								
+									
+										
+										
+											<div class="contenido-apartados">
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																 
+																
+																	
+																	
+																	
+																	
+																
+																<a href="https://www.educacionyfp.gob.es/portada.html" target="_blank" accesskey="" title="Ir a la web del Ministerio de Educación y Formación Profesional">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="Ministerio de Educación y Formación Profesional" src="/cmsweb/export/sites/educacion/web/_galerias/iconos80X80/80x80px-gobierno-espana.jpg" alt="Imagen del enlace del la web del Ministerio de Educación y Formación Profesional"/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	 
+																	Ministerio de Educación y Formación Profesional 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/ensenanzas/ordenacion_curriculo/index.html" target="" accesskey="" title="Ir al enlace de la Ordenación y currículo de las enseñanzas y estudios.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="Imagen del enlace" src="/cmsweb/export/sites/educacion/web/_galerias/iconos60x60/60x60_curriculos.jpg" alt="Imagen del enlace"/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Ordenación y currículo de las enseñanzas y estudios 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/app/index.html" target="" accesskey="" title="Ir a las APP: Aplicaciones para dispositivos móviles de la Consejería">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" " src="/cmsweb/export/sites/educacion/web/_galerias/iconos80X80/80x80_app_docente_sin.jpg" alt=" "/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	APP: Aplicaciones para dispositivos móviles 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/programas_cofinanciados/index.html" target="" accesskey="" title="Ir a Programas financiados o cofinanciados por el Ministerio de Educación y Formación Profesional y la Unión Europea.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title=" " src="/cmsweb/export/sites/educacion/web/_galerias/iconos60x60/60X60px_programas-cofinanciados.png" alt=" "/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Programas financiados o cofinanciados 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/programas-redes-educativas/index.html" target="" accesskey="" title="Ir a Programas, proyectos y redes de Educación">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/iconos80X80/programas-proyectos_redes_80x.jpg" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Programas, proyectos y redes 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/educacion/web/servicios/telefono-de-informacion-012/tramite_presencial/index.html" target="" accesskey="" title="Ir al enlace del Servicio de Información y Atención Telefónica del Gobierno de Canarias 012">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/iconos60x60/60X60px_012.jpg" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Trámite presencial. Cita previa 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																
+																	
+																	
+																	
+																	
+																 
+																
+																<a href="/eucd/consejeria/datos_consejeria/index.html" target="" accesskey="" title="Ir a Datos estadísticos y datos abiertos de la Consejería.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="""" src="/cmsweb/export/sites/educacion/web/_galerias/iconos60x60/60x60_datos_estadisticos_1.jpg" alt=""""/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	Datos estadísticos y datos abiertos 
+																	 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+													
+													
+													<div class='apartado gris_imagenes  col-sm-6 col-md-4 col-lg-3  '>
+														
+															
+																 
+																
+																	
+																	
+																	
+																	
+																
+																<a href="https://www.gobiernodecanarias.org/transparencia/" target="_blank" accesskey="" title="Ir al enlace de Transparencia.">
+															
+															
+														
+														
+															
+																
+																
+																	<div class="fas">
+																		<img title="Imagen del enlace" src="/cmsweb/export/sites/educacion/web/_galerias/iconos60x60/img_transparencia_60x60_sin.png" alt="Imagen del enlace "/>
+																	</div>
+																
+															
+															
+															
+														
+														
+															<div class="apartado-texto">
+																<p>
+																	 
+																	Transparencia 
+																</p>
+																
+																
+																	<div style="clear:both;"></div>
+																
+															</div>
+														
+														
+															
+																</a>
+															
+															
+														
+													</div>
+													
+												
+											</div>
+										
+									
+								
+							
+						
+						
+					 
+					
+				</div>
+				</div>
+			
+			
+				<div style="clear:both"></div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+</div>
+			<div  id="subfootercontainer" ><div>
+		
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_enlace_central.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_barra_destacados.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link><div class="enlace-central horizontal">
+					<img src="/cmsweb/export/sites/educacion/web/_galerias/servicios/sede-electronica76.png" />
+					<h3 >Sede Electrónica</h3>
+					<a href="https://sede.gobiernodecanarias.org/sede/procedimientos_servicios/tramites?contentTypeId=321b9560-73a9-11df-8da5-bf2cae36f426&titulo=&tema=1a55b2a0-746f-11df-9b2d-3a7c86430dd7&departamento=3a36ade0-732e-11e5-8789-78d141a8a4eb&perfil=&organo=&tipo_tramite=&dirGral=&subtema=&enviado=true">acceder</a>
+				</div>
+			</div>
+</div>
+			<footer  id="footercontainer" >
+
+
+
+
+
+
+	
+		<div id="4f474d16-5437-11ec-a411-0050568aba16" class="contenedor contenedor-pie">
+	
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/mcs-pie/mcs-pie.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" type="text/css">
+<link rel="stylesheet" href="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_tematico.css" type="text/css"><div class="columnas-pie">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+							<h2 class="titulo-modernizacion">La Consejería</h2>
+							<ul>
+								<li>
+													<a href="https://www.gobiernodecanarias.org/organigrama/ficha-altos-cargos/?ou=42123" accesskey="j" target="_blank" title="El Consejero (tecla de acceso: j)">El Consejero</a>
+												</li>
+											<li>
+													<a href="https://www.gobiernodecanarias.org/organigrama/?ou=42123" accesskey="k" target="_blank" title="Organigrama (tecla de acceso: k)">Organigrama</a>
+												</li>
+											<li>
+													<a href="/eucd/consejeria/org_colegiados_org_publicos/index.html" accesskey="n" target="_blank" title="Órganos colegiados, organismos, fundaciones y sociedades mercantiles (tecla de acceso: n)">Órganos colegiados, organismos, fundaciones y sociedades mercantiles</a>
+												</li>
+											</ul>
+						</div>
+					<div class="col-md-4">
+							<h2 class="titulo-modernizacion">Redes sociales e identidad gráfica</h2>
+							<ul>
+								<li>
+													<a href="/eucd/redes-sociales/index.html" accesskey="r" target="" title="Redes sociales de la Consejería (tecla de acceso: r)">Redes sociales</a>
+												</li>
+											<li>
+													<a href="/eucd/consejeria/identidad_corporativa/index.html" accesskey="p" target="" title="Identidad gráfica corporativa del Gobierno de Canarias y de los centros educativos (tecla de acceso: p)">Identidad gráfica corporativa</a>
+												</li>
+											</ul>
+						</div>
+					<div class="col-md-4">
+							<h2 class="titulo-modernizacion">Ayuda</h2>
+							<ul>
+								<li>
+													<a href="/eucd/accesibilidad/index.html" accesskey="a" target="_blank" title="Accesibilidad (tecla de acceso: a)">Accesibilidad</a>
+												</li>
+											<li>
+													<a href="/educacion/web/mapa-web/index.html" accesskey="b" target="" title="Índice de contenidos o mapa de la web (tecla de acceso: b)">Mapa web</a>
+												</li>
+											<li>
+													<a href="/educacion/web/contacto/index.html" accesskey="c" target="" title="Contacte con nosotros (tecla de acceso: c)">Contacto</a>
+												</li>
+											<li>
+													<a href="/eucd/buscador/index.html" accesskey="q" target="" title="Buscador general y buscadores temáticos (tecla de acceso: q)">Buscadores</a>
+												</li>
+											<li>
+													<a href="https://www.gobiernodecanarias.org/principal/sugerenciasyreclamaciones/" accesskey="s" target="_blank" title="Sugerencias y reclamaciones (tecla de acceso: s)">Sugerencia y reclamaciones</a>
+												</li>
+											</ul>
+						</div>
+					</div>
+			</div>
+		</div>
+	<div class="portal_tipo_logos_footer container">
+	   <div class="portal_tipo_logos_footer_row1">
+		  <div>
+			 <img src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/images/CA.png" alt="Canarias avanza con Europa" title="Canarias avanza con Europa" >
+		  </div>
+		  <div>
+			 <img src="https://www.gobiernodecanarias.org/gcc/img/logos/logo.svg" alt="Gobierno de Canarias" title="Gobierno de Canarias" >
+		  </div>
+	   </div>
+	   <div class="portal_tipo_logos_footer_row2">
+		  <div>
+			 <img src="/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/images/UE.png" alt="Unión Europea" title="Unión Europea" >
+		  </div>
+		  <div>
+			 <p>Fondo Europeo de Desarrollo Regional</p>
+		  </div>
+	   </div>
+	</div>
+	<div class="pie">
+		<div class="container">
+			<div class="copyright">
+				<span >&copy;Gobierno de Canarias</span>
+			</div>
+			<div class="menu-inferior">
+				<span><a href="https://www.gobiernodecanarias.org/principal/avisolegal.html" target="_blank" title="Ir a la página de Aviso legal">Aviso legal</a></span>
+				<span><a href="/eucd/politica_privacidad/index.html" target="" title="Ir a la página de Política de privacidad">Política de privacidad</a></span>
+				</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+</div>
+
+
+	
+	
+</footer>
+			
+		</div>
+	</body>
+</html>
+	
+	
