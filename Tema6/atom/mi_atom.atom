@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="https://www.w3.org/2005/atom" xml:lang="es-es">
+    <author>
+        <name>david jorge bilbao</name>
+        <email></email>
+    </author>
+    <entry>
+        <title>Noticias del pais </title>
+        <id>http://elpais.com</id>
+        <link ></link>
+    </entry>
+</feed>
