@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <title> Eventos de tu ciudad</title>
+    <channel>
+        <title> Eventos </title>
+        <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+        <descripcion>noticia de actualizacion</descripcion>
+        <item>
+            <title>fiesta locales</title>
+            <link>https://www.regmurcia.com/servlet/s.Sl?sit=a,307,c,369,m,1218</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+        <item>
+            <title>festivales </title>
+            <link>https://www.puertodelacruz.es/agenda/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+    </channel>
+    
+    
+</rss>

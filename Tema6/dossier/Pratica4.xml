@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <title>Mis asignaturas </title>
+    <channel>
+        <title>Lng </title>
+        <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+        <descripcion>noticia de actualizacion</descripcion>
+        <item>
+            <title>Lng</title>
+            <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+    </channel>
+    <channel>
+        <title>programacion </title>
+        <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+        <descripcion>noticia de actualizacion</descripcion>
+        <item>
+            <title>programacion</title>
+            <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+    </channel>
+    <channel>
+        <title>bae</title>
+        <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+        <descripcion>noticia de actualizacion</descripcion>
+        <item>
+            <title>bae</title>
+            <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+    </channel>
+</rss>

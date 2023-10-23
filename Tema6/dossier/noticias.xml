@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <title>Mis asignaturas </title>
+    <channel>
+        <title>Animales</title>
+        <link>https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/</link>
+        <descripcion>noticia de actualizacion</descripcion>
+        <item>
+            <title> ovejas</title>
+            <link>https://elpais.com/noticias/mascotas/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+        <item>
+            <title>Perros</title>
+            <link>https://www.20minutos.es/noticia/5170684/0/estas-son-las-diez-cosas-que-los-perros-odian-los-humanos/</link>
+            <descripcion>noticia del pais </descripcion>
+        </item>
+    </channel>
+    
+    
+</rss>
