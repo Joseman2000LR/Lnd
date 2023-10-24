@@ -1,0 +1,17 @@
+<feed xmlns="https://www.w3.org/2005/atom" xml:lang="es-es">
+    <author>
+        <name>david jorge bilbao</name>
+        <email>davidjorgebilbao.alumno2gmail.es</email>
+    </author>
+    <entry>
+        <title>Noticias del pais </title>
+        <id>http://elpais.com</id>
+        <link rel="alternate" type="text/html" href="http://elpais.com/"/>
+        <update>2023-10-17T19:00:46Z</update>
+        <author>
+            <name>david jorge bilbado</name>
+            <email>davidjorgebilbao.alumno2gmail.es</email>
+        </author>
+        <sumary>Noticias chachis y triste del pais </sumary>
+    </entry>
+</feed>
