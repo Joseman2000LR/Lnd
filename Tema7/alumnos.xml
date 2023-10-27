@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="alumno.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<alumno>
+    <nombre>pepe</nombre>
+    <edad>15</edad>
+    <nota>6</nota>
+</alumno>
