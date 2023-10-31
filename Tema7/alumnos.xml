@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="alumno.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<alumno>
-    <nombre>pepe</nombre>
-    <edad>15</edad>
-    <nota>6</nota>
-    <nota>6</nota>
-    <nota>6</nota>
-    <telefono>6586844</telefono>
-    
-</alumno>
+<alumnos grupo="1">
+    <alumno dni="852894">
+        <nombre>pepe</nombre>
+        <edad>15</edad>
+        <nota>6</nota>
+        <nota>6</nota>
+        <nota>6</nota>
+        <telefono>6586844</telefono>
+
+    </alumno>
+</alumnos>

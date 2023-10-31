@@ -1,12 +1,23 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="alumno">
+<xs:element name="alumnos">
+    <xs:complexType>
+        <xs:sequence>
+                <xs:element ref="alumno" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+            <xs:attribute name="grupo" type="xs:string" use="optional" default="1"></xs:attribute>
+    </xs:complexType>
+</xs:element>
+
+    <xs:element name="alumno" >
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="nombre" type="xs:string"></xs:element>
                 <xs:element name="edad" type="xs:integer"></xs:element>
                 <xs:element name="nota" type="xs:decimal" minOccurs="1" maxOccurs="10"></xs:element>
-                <xs:element name="telefono" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element name="telefono" type="xs:string" minOccurs="1"
+                    maxOccurs="unbounded"></xs:element>
             </xs:sequence>
+            <xs:attribute name="dni" type="xs:string" use="required"></xs:attribute>
         </xs:complexType>
     </xs:element>
 </xs:schema>
