@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inventario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="laboratorio" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="laboratorio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="personal" type="xs:decimal"></xs:element>
+                <xs:element name="ultimainspeccion" type="xs:decimal"></xs:element>
+                <xs:element ref="planta" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="xs:string" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="planta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombrecomun" type="xs:string" />
+                <xs:element name="nombrebotanico" type="xs:string" />
+                <xs:element name="clima" type="xs:string" />
+                <xs:element name="luz" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

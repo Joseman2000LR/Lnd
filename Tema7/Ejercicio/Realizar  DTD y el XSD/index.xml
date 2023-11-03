@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-model href="index.dtd" type="application/xml-dtd"?>
+
 <instituto> 
     <clase grupo="Desarrollo de Aplicaciones Web" curso="1"> 
         <alumno sexo="H"  cial="A92C950D93">
