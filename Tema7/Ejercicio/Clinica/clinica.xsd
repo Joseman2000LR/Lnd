@@ -1,0 +1,102 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clinicaveterinaria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Cliente" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Cliente">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="apellidos " type="xs:string"></xs:element>
+                <xs:element ref="animal" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="animal">
+        <xs:complexType>
+                <xs:choice>
+                <xs:element ref="perro" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element ref="reptil" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element ref="gato" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="perro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="edad" type="xs:string"></xs:element>
+                <xs:element name="raza" type="xs:string"></xs:element>
+                <xs:attribute name="sexo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="H" />
+                            <xs:enumeration value="M" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="vacunado">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:boolean">
+                            <xs:enumeration value="true" />
+                            <xs:enumeration value="false" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="reptil">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="edad" type="xs:string"></xs:element>
+                <xs:element name="raza" type="xs:string"></xs:element>
+                <xs:attribute name="sexo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="H" />
+                            <xs:enumeration value="M" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="vacunado">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:boolean">
+                            <xs:enumeration value="true" />
+                            <xs:enumeration value="false" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="gato">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="edad" type="xs:string"></xs:element>
+                <xs:element name="raza" type="xs:string"></xs:element>
+                <xs:attribute name="sexo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="H" />
+                            <xs:enumeration value="M" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="vacunado">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:boolean">
+                            <xs:enumeration value="true" />
+                            <xs:enumeration value="false" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
