@@ -39,12 +39,12 @@
                     </xs:simpleType>
                 </xs:attribute>
                 <xs:attribute name="vacunado">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:boolean">
-                            <xs:enumeration value="true" />
-                            <xs:enumeration value="false" />
-                        </xs:restriction>
-                    </xs:simpleType>
+                        <xs:choice>
+                            <xs:restriction base="xs:boolean">
+                                <xs:enumeration value="true" />
+                                <xs:enumeration value="false" />
+                            </xs:restriction>
+                        </xs:choice>
                 </xs:attribute>
             </xs:sequence>
         </xs:complexType>
