@@ -12,13 +12,6 @@
 				<chip>true</chip>
 			</perro>
 		</animal>
-		<animal>
-			<reptil sexo="H">
-				<nombre>Juana</nombre>
-				<edad>10</edad>
-				<raza>Iguana comun</raza>
-			</reptil>
-		</animal>
 	</Cliente>
 	<Cliente>
 		<nombre>María</nombre>
