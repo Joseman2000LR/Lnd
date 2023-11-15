@@ -15,88 +15,65 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="animal">
-        <xs:complexType>
-                <xs:choice>
-                <xs:element ref="perro" minOccurs="1" maxOccurs="unbounded"></xs:element>
-                <xs:element ref="reptil" minOccurs="1" maxOccurs="unbounded"></xs:element>
-                <xs:element ref="gato" minOccurs="1" maxOccurs="unbounded"></xs:element>
-                </xs:choice>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="perro">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nombre" type="xs:string"></xs:element>
-                <xs:element name="edad" type="xs:string"></xs:element>
-                <xs:element name="raza" type="xs:string"></xs:element>
-                <xs:attribute name="sexo">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="H" />
-                            <xs:enumeration value="M" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
-                <xs:attribute name="vacunado">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:boolean">
-                            <xs:enumeration value="true" />
-                            <xs:enumeration value="false" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="reptil">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nombre" type="xs:string"></xs:element>
-                <xs:element name="edad" type="xs:string"></xs:element>
-                <xs:element name="raza" type="xs:string"></xs:element>
-                <xs:attribute name="sexo">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="H" />
-                            <xs:enumeration value="M" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                        </xs:attribute>
-                        <xs:attribute name="vacunado">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:boolean">
-                            <xs:enumeration value="true" />
-                            <xs:enumeration value="false" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="gato">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nombre" type="xs:string"></xs:element>
-                <xs:element name="edad" type="xs:string"></xs:element>
-                <xs:element name="raza" type="xs:string"></xs:element>
-                <xs:attribute name="sexo">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="H" />
-                            <xs:enumeration value="M" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
-                <xs:attribute name="vacunado">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:boolean">
-                            <xs:enumeration value="true" />
-                            <xs:enumeration value="false" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+
+    <xs:complexType name="animal">
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="perro" type="Perro" />
+                <xs:element name="reptil" type="Reptil" />
+                <xs:element name="gato" type="Gato" />
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Perro">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="edad" type="xs:positiveInteger" />
+            <xs:element name="raza" type="xs:string" />
+            <xs:element name="chip" type="xs:boolean" />
+        </xs:sequence>
+        <xs:attribute name="sexo" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="M" />
+                    <xs:enumeration value="H" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="vacunado" type="xs:boolean" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="Reptil">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="edad" type="xs:positiveInteger" />
+            <xs:element name="raza" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="sexo" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="M" />
+                    <xs:enumeration value="H" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Gato">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="edad" type="xs:positiveInteger" />
+            <xs:element name="raza" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="sexo" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="M" />
+                    <xs:enumeration value="H" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
 </xs:schema>
