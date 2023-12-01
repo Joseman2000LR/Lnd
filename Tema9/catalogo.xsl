@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:transform version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output encoding="utf-8" indent="yes" method="html"
+        doctype-system="about:legacy-compat" />
     <xsl:template match="/"> 
     <html>
         <head>
@@ -12,10 +14,10 @@
                 <xsl:for-each select="//cd">
                 <tr>
                     <td>
-                         <xsl:value-of select="titulo" />
+                                <xsl:value-of select="titulo" />
                         </td>
                     <td>
-                        <xsl:value-of select="artista" />
+                                <xsl:value-of select="artista" />
                     </td>
                 </tr>
                 </xsl:for-each>
@@ -23,4 +25,4 @@
         </body>
     </html>
     </xsl:template>
-</xsl:stylesheet>
+</xsl:transform>
