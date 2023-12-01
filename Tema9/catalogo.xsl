@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output encoding="utf-8" indent="yes" method="html"
-        doctype-system="about:legacy-compat" />
     <xsl:template match="/"> 
     <html>
         <head>
@@ -9,15 +7,15 @@
         </head>
         <body>
             <h2>Mis cds</h2>
-            <table>
+            <table >
                 <tr><th>Artita</th><th>Titulo</th></tr>
                 <xsl:for-each select="//cd">
                 <tr>
                     <td>
-                                <xsl:value-of select="titulo" />
+                        <xsl:value-of select="titulo" />
                         </td>
                     <td>
-                                <xsl:value-of select="artista" />
+                        <xsl:value-of select="artista" />
                     </td>
                 </tr>
                 </xsl:for-each>
