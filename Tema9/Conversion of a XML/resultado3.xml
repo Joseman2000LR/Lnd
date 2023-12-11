@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="bk101" author="Gambardella, Matthew">
+        <title>XML Developer's Guide</title>
+        <genre>Computer</genre>
+        <price>44.95</price>
+    </book>
+    <book id="bk102" author="Ralls, Kim">
+        <title>Midnight Rain</title>
+        <genre>Fantasy</genre>
+        <price>5.95</price>
+    </book>
+    <book id="bk103" author="Corets, Eva">
+        <title>The Sundered Grail</title>
+        <genre>Fantasy</genre>
+        <price>5.95</price>
+    </book>
+    <book id="bk104" author="Knorr, Stefan">
+        <title>Creepy Crawlies</title>
+        <genre>Horror</genre>
+        <price>4.95</price>
+    </book>
+    <book id="bk105" author="Kress, Peter">
+        <title>Paradox Lost</title>
+        <genre>Science Fiction</genre>
+        <price>6.95</price>
+    </book>
+</catalog>
