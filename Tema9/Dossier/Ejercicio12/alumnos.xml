@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- New document created with EditiX at Mon Apr 04 17:43:56 BST 2011 -->
-<?xml-stylesheet href="ejercicio7.xsl" type="text/xsl"?>
+<?xml-stylesheet href="ejercicio12.xsl" type="text/xsl"?>
 <instituto codigo="38010700" nombre="IES Domingo Pérez Minik">
     <curso codigo="1" nombre="1º ASIR">
         <alumno cial="A18X111">
