@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="bk101">
+        <details author="Gambardella, Matthew" date_of_publish="2000-10-01">
+            <title>XML Developer's Guide</title>
+            <genre>Computer</genre>
+            <price>44.95</price>
+            <description>An in-depth look at creating applications
+                with XML.</description>
+        </details>
+    </book>
+    <book id="bk102">
+        <details author="Ralls, Kim" date_of_publish="2000-12-16">
+            <title>Midnight Rain</title>
+            <genre>Fantasy</genre>
+            <price>5.95</price>
+            <description>A former architect battles corporate zombies,
+                an evil sorceress, and her own childhood to become queen
+                of the world.</description>
+        </details>
+    </book>
+    <book id="bk103">
+        <details author="Corets, Eva" date_of_publish="2001-09-10">
+            <title>The Sundered Grail</title>
+            <genre>Fantasy</genre>
+            <price>5.95</price>
+            <description>The two daughters of Maeve, half-sisters,
+                battle one another for control of England. Sequel to
+                Oberon's Legacy.</description>
+        </details>
+    </book>
+</catalog>
