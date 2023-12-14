@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <Bloodroot>
+        <botanical>Sanguinaria canadensis</botanical>
+        <zone>4</zone>
+        <price>$2.44</price>
+    </Bloodroot>
+    <Columbine>
+        <botanical>Aquilegia canadensis</botanical>
+        <zone>3</zone>
+        <price>$9.37</price>
+    </Columbine>
+    <Hepatica>
+        <botanical>Hepatica americana</botanical>
+        <zone>4</zone>
+        <price>$4.45</price>
+    </Hepatica>
+    <Mayapple>
+        <botanical>Podophyllum peltatum</botanical>
+        <zone>3</zone>
+        <price>$2.98</price>
+    </Mayapple>
+    <Buttercup>
+        <botanical>Ranunculus</botanical>
+        <zone>4</zone>
+        <price>$2.57</price>
+    </Buttercup>
+</catalog>
