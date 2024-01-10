@@ -1,5 +1,4 @@
 xquery version "1.0";
-declare copy-namespaces no-preserve, no-inherit;
 <repetidores>
 {
 for $variable in /instituto/curso/alumno
