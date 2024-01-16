@@ -1,4 +1,5 @@
 xquery version "1.0";
+<<<<<<< Updated upstream
 declare variable $num as xs:integer := 4;
 <instituto codigo="38010700" nombre="IES Domingo Pérez Minik">
 
@@ -14,5 +15,14 @@ declare variable $num as xs:integer := 4;
                 </alumno>
             }
         </curso>
+=======
+<repetidores>
+{
+  for $variable in doc("alumnos.xml")/instituto/curso/alumno 
+  let $num := $variable/nombre
+  where $variable/asignaturas < 4
+  order by $variable/nombre
+  return $num
+>>>>>>> Stashed changes
 }
 </instituto>
