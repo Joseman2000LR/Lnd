@@ -1,7 +1,7 @@
-#Trabajo de investigación sobre odoo
+# Trabajo de investigación sobre odoo
 
 
-###El trabajo de investigación explicará los siguientes items:
+### El trabajo de investigación explicará los siguientes items:
 
 <ol>
     <li>¿Que es Odoo?</li>
