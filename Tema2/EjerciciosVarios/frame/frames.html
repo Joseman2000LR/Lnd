@@ -9,13 +9,13 @@
     <title> frames</title>
 </head>
 
-<body>
-<frame></frame>
-<frameset cols="80%,20%">
-    <frame><a href=""></a></frame>
-    <frame><a href="www.gobiernodecanarias.org/educacion"></a></frame>
+<frameset rows="100,*">
+    <frame src="iespuerto.html" name="arriba" scrolling="no">
+        <frameset cols="80%,20%">
+            <frame name="izquierda">
+                <frame src="http://www.gobiernodecanarias.org/educacion" name="derecha">
+        </frameset>
+        <frame src="iespuerto1.html" name="abajo" scrolling="no">
 </frameset>
-<frame><a href="iespuerto1.html"></a></frame>
-</body>
 
 </html>
