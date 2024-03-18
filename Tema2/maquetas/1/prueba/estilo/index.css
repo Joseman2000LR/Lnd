@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: aquamarine;
+    width: 100%;
+}
+
+li ul{
+    display: none;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(1, 1, 142);
+    display: block;
+    padding: 2px, 10px;
+}
+
+.menu > link {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+li :hover > ul {
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgb(0, 0, 32);
+}
+
+nav ul {
+    list-style: none;
+}
