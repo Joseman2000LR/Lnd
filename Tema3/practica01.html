@@ -1,0 +1,82 @@
+<html>
+ <head><title>PRACTICA 01 del TEMA 3:</title>
+ <script language="javascript">
+     function mostrarContacto() {
+	    zonaPersonal.style.display = "none";
+		zonaContacto.style.display = "block";
+     }
+ 
+     function mostrarPersonales() {
+	    zonaPersonal.style.display = "block";
+		zonaContacto.style.display = "none";
+    }
+
+ </script>
+ <link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+ <body>     
+   
+   <form id="miformulario">
+<div id="zonaPersonal" style="display:block">	
+     <table width="50%" cols="2" style="border: solid 2px orange">
+		<tr><td colspan="2" bgcolor="orange"><h3>DATOS PERSONALES</h3></td></tr>
+		<tr><td><h3>Nombre:</h3></td>
+		    <td><input type="text" id="nombre" size="20" maxlength="20"/></td>
+		</tr>
+		<tr><td><h3>Apellidos:</h3></td>
+		    <td><input type="text" id="apellidos" size="50" maxlength="50"/></td>
+		</tr>
+		<tr><td><h3>Direcci&oacute;n:</h3></td>
+		    <td><textarea id="direccion" cols="50" rows="3">
+			    </textarea></td>
+		</tr>
+		<tr><td><h3>C&oacute;digo postal:</h3></td>
+		    <td><input type="text" id="cp" size="5" maxlength="5"/></td>
+		</tr>
+		<tr><td><h3>Isla:</h3></td>
+		    <td><select id="isla">
+			       <optgroup label="Prov. Tenerife:">
+					<option value="01">Tenerife</option>
+					<option value="02">La Gomera</option>
+					<option value="03">La Palma</option>
+					<option value="04">El Hierro</option>
+				   </optgroup>
+				   <optgroup label="Prov. Las Palmas:">
+					<option value="05">Gran Canaria</option>
+					<option value="06">Fuerteventura</option>
+					<option value="07">Lanzarote</option>
+				   </optgroup>
+				</select>
+			</td>
+		</tr>
+		<tr bgcolor="orange"><td colspan="2" align="center"><input type="button" value="Mostrar datos contacto" onclick="mostrarContacto();"/></td></tr>
+	</table>	
+</div>
+
+<br>
+
+<div id="zonaContacto" style="display:none">	
+	<table width="50%" cols="2" style="border: solid 2px orange">
+		<tr><td colspan="2" bgcolor="orange"><h3>DATOS DE CONTACTO</h3></td></tr>
+		<tr><td><h3>Telefono:</h3></td>
+		    <td><input type="text" id="telefono" size="9" maxlength="9"/></td>
+		</tr>
+		<tr><td><h3>Movil:</h3></td>
+		    <td><input type="text" id="movil" size="9" maxlength="9"/></td>
+		</tr>
+		<tr><td><h3>Fax:</h3></td>
+		    <td><input type="text" id="movil" size="9" maxlength="9"/></td>
+		</tr>
+		<tr><td><h3>Email:</h3></td>
+		    <td><input type="text" id="email" size="30" maxlength="30"/></td>
+		</tr>
+		<tr bgcolor="orange"><td colspan="2" align="center"><input type="button" value="Mostrar datos personales" onclick="mostrarPersonales();"/></td></tr>
+
+	</table>
+</div>		
+		
+    </FORM>
+  </BODY>
+</HTML>
+
+
+
