@@ -1,52 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
-  <body>
-    <div class="contenedor">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css" />
+  <script type="text/javascript"
+    src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script>
+  <script type="text/javascript"
+    src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script>
+  <script type="text/javascript"
+    src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script>
+  <script type="text/javascript"
+    src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script>
+</head>
+<style>
+  
+  table {
+    border: 100px;
+    background-color: #FFCC99;
+  }
 
-      <table id="tablaCambio">
-        <tr class="cabecera">
-          <th>Cambio</th>
-          <th>Compra</th>
-          <th>Venta</th>
-          <th>Máximo</th>
-          <th>Mínimo</th>
-        </tr>
-        <tr>
-          <th class="euro alineadoDcha">Euro/Dolar</th>
-          <td>1.25</td>
-          <td>1.25</td>
-          <td>1.25</td>
-          <td>1.24</td>
-        </tr>
-        <tr>
-          <th class="dolar alineadoDcha">Dolar/Yen</th>
-          <td>119.01</td>
-          <td>119.05</td>
-          <td>119.82</td>
-          <td>119.82</td>
-        </tr>
-        <tr>
-          <th class="libra alineadoDcha">Libra/Dolar</th>
-          <td>1.86</td>
-          <td>1.86</td>
-          <td>1.86</td>
-          <td>1.85</td>
-        </tr>
-        <tr>
-          <th class="yen alineadoDcha">Yen/Euro</th>
-          <td>0.67</td>
-          <td>0.67</td>
-          <td>0.66</td>
-          <td>0.67</td>
-        </tr>
-      </table>
+
+  .cabecera {
+    color: green;
+    background-color: orange;
+
+  }
+
+  .euro_alineadoDcha {
+    background-color: gainsboro;
+
+  }
+  .euro_alineadoDcha td {
+    background-color: gainsboro;
+
+  }
+
+  .dolar_alineadoDcha {
+    background-color: gray;
+  }
+
+  .libra_alineadoDcha {
+    background-color: gray;
+  }
+
+  .yen_alineadoDcha {
+    background-color: gray;
+  }
+
+ 
+table thead th {
+  text-align: center;
+}
+
+table th, table, td {
+  border: 2px solid #FFCC99;
+  line-height: 2em;
+}
+table  td{
+  background-color: blue;
+}
+
+table tr td:nth-child(even) {
+  background-color: rebeccapurple;
+}
+</style>
+</head>
+
+<body>
+  <div class="contenedor">
+
+    <table id="tablaCambio">
+      <tr class="cabecera">
+        <th>Cambio</th>
+        <th>Compra</th>
+        <th>Venta</th>
+        <th>Máximo</th>
+        <th>Mínimo</th>
+      </tr>
+      <tr>
+        <th class="euro_alineadoDcha">Euro/Dolar</th>
+        <td>1.25</td>
+        <td>1.25</td>
+        <td>1.25</td>
+        <td>1.24</td>
+      </tr>
+      <tr>
+        <th class="dolar_alineadoDcha">Dolar/Yen</th>
+        <td>119.01</td>
+        <td>119.05</td>
+        <td>119.82</td>
+        <td>119.82</td>
+      </tr>
+      <tr>
+        <th class="libra_alineadoDcha">Libra/Dolar</th>
+        <td>1.86</td>
+        <td>1.86</td>
+        <td>1.86</td>
+        <td>1.85</td>
+      </tr>
+      <tr>
+        <th class="yen_alineadoDcha">Yen/Euro</th>
+        <td>0.67</td>
+        <td>0.67</td>
+        <td>0.66</td>
+        <td>0.67</td>
+      </tr>
+    </table>
   </div>
 
-  </body>
-  </html>
+</body>
+
+</html>
