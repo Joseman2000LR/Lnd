@@ -6,58 +6,90 @@
     <meta name="author" author="jose manuel">
     <link rel="stylesheet" href="">
     <title>Características </title>
-    <style>
+    <style>body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
         h1 {
             text-align: center;
+            margin-top: 20px;
         }
-        .primero {
-            padding-left: 6%;
+
+        .feature-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
-        .primero,.segundo {
-            float: left;
+
+        .feature-text {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .feature-info {
+            width: calc(50% - 20px);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             float: left;
             width: 50%;
             box-sizing: border-box;
             padding-right: 20px;
         }
 
-        .segundo {
-            clear: right;
-            padding-left: 5%;
-            padding-right: 0%;
+        .feature-info h2 {
+            margin-top: 0;
+            color: #333;
         }
-        p{
-            padding-left: 2%;
-            padding-right: 2%;
+
+        .feature-info p {
+            line-height: 1.6;
         }
+      
     </style>
+</head>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" author="jose manuel">
+    <link rel="stylesheet" href="styles.css">
+    <title>Características</title>
 </head>
 
 <body>
     <main>
         <h1>Características</h1>
-        <div >
-            <p>En su última versión, Ubuntu soporta oficialmente dos arquitecturas de hardware en computadoras
-                personales y
-                servidores: 32-bit (x86) y 64-bit (x86 64) Sin embargo, extraoficialmente, Ubuntu ha sido portado a más
-                arquitecturas: ARM, PowerPC, SPARC e IA-64.</p>
-            <p>A partir de la versión 9.04, se empezó a ofrecer servicio técnico extraoficial para procesadores ARM
-                comúnmente usados en dispositivos móviles. Al igual que la mayoría de los sistemas de escritorio basados
-                en Linux, Ubuntu es capaz de actualizar a la vez todas las aplicaciones instaladas en la máquina a
-                través de repositorios.</p>
-        </div>
-        <div class="primero">
-            <h2>Ubuntu y la comunidad</h2>
-            <p>Los usuarios pueden participar en el desarrollo de Ubuntu, escribiendo código, solucionando bugs,
-                probando versiones inestables del sistema, etc Además, en febrero de 2008 se puso en marcha el sitio
-                Brainstorm ue permite a los usuarios proponer sus ideas y votar las del resto. </p>
-        </div>
-        <div class="segundo">
-            <h2>
-                Organización del software
-            </h2>
-            <p>Ubuntu internamente divide todo el software en cuatro secciones, llamadas "componentes", para mostrar
-                diferencias en licencias y la prioridad con la que se atienden los problemas que informen los
-                usuarios.​ Estos componentes son: main, restricted, universe y multiverse.</p>
+        <div class="feature-container">
+            <div class="feature-text">
+                <p>En su última versión, Ubuntu soporta oficialmente dos arquitecturas de hardware en computadoras
+                    personales y servidores: 32-bit (x86) y 64-bit (x86 64) Sin embargo, extraoficialmente, Ubuntu ha
+                    sido portado a más arquitecturas: ARM, PowerPC, SPARC e IA-64.</p>
+                <p>A partir de la versión 9.04, se empezó a ofrecer servicio técnico extraoficial para procesadores ARM
+                    comúnmente usados en dispositivos móviles. Al igual que la mayoría de los sistemas de escritorio
+                    basados en Linux, Ubuntu es capaz de actualizar a la vez todas las aplicaciones instaladas en la
+                    máquina a través de repositorios.</p>
+            </div>
+            <div class="feature-info">
+                <h2>Ubuntu y la comunidad</h2>
+                <p>Los usuarios pueden participar en el desarrollo de Ubuntu, escribiendo código, solucionando bugs,
+                    probando versiones inestables del sistema, etc. Además, en febrero de 2008 se puso en marcha el
+                    sitio Brainstorm que permite a los usuarios proponer sus ideas y votar las del resto.</p>
+            </div>
+            <div class="feature-info">
+                <h2>Organización del software</h2>
+                <p>Ubuntu internamente divide todo el software en cuatro secciones, llamadas "componentes", para mostrar
+                    diferencias en licencias y la prioridad con la que se atienden los problemas que informen los
+                    usuarios. Estos componentes son: main, restricted, universe y multiverse.</p>
+            </div>
         </div>
     </main>
 </body>

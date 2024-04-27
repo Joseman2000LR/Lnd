@@ -6,30 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" author="jose manuel">
     <title>Distribuciones</title>
-    <style>
-        main {
-            padding: 0%;
+    <style>body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
         }
 
         h1 {
-           text-align: center;
-           padding-bottom: 2%;
+            text-align: center;
+            margin-top: 20px;
         }
-        .primero {
-            padding-left: 10%;
+
+        .feature-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
-        .primero,.segundo {
-            float: left;
+
+        .feature-text {
+            padding: 0.5%;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .feature-info {
+            width: calc(50% - 20px);
+            background-color: #fff;
+            padding: 20px;
+            padding-left: 5%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             float: left;
             width: 50%;
             box-sizing: border-box;
             padding-right: 20px;
         }
 
-        .segundo {
-            clear: right;
-            padding-left: 5%;
-            padding-right: 0%;
-           
+        .feature-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .feature-info p {
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -37,7 +60,10 @@
 <body>
     <main>
         <h1>Distribuciones basadas en Ubuntu</h1>
-        <div class="primero">
+        <div class="feature-text">Las distribuciones basadas en Ubuntu son sistemas operativos que utilizan el código fuente de Ubuntu como base, pero que
+        pueden diferir en términos de diseño, selección de software, configuración y objetivos específicos. Aquí hay una visión
+        general de algunas distribuciones populares basadas en Ubuntu </div>
+        <div class="feature-info">
             <h2>Distribuciones oficiales</h2>
             <ul>
                 <li><a href="">Kubuntu</a></li>
@@ -50,7 +76,7 @@
                 <li><a href="">Gobuntu</a> </li>
             </ul>
         </div>
-        <div class="segundo">
+        <div class="feature-info">
             <h2>Distribuciones no oficiales</h2>
             <ul>
                 <li><a href="">andLinux</a> </li>
@@ -61,7 +87,6 @@
                 <li><a href="">Gnoppix</a> </li>
                 <li><a href="">Q4OS</a> </li>
                 <li><a href="">Linux Lite</a> </li>
-                <li><a href="">Mcyber</a> </li>
             </ul>
         </div>
     </main>

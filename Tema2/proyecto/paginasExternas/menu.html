@@ -1,71 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="author" author="jose manuel">
-    <title>Menu</title>
+    <meta name="author" content="Jose Manuel">
+    <title>¿Qué es Ubuntu?</title>
     <style>
-       main{
-           padding: 0%;
-       }
-        main h4 {
-        padding-top: 0.5%;
-        padding-left: 0.7%;
-        padding-bottom: 0.5%;
-        font-size: 1rem;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
         }
-        .inicios {
-        margin-top: 1%;
+
+        h1,
+        h3,
+        p {
+            margin: 0 0 15px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .patrocinadores h3 {
+            color: #555;
+        }
+
+        .seguridad-accesibilidad p {
+            line-height: 1.6;
+        }
+        .ubuntu{
+            margin-top: 5px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 5px;
+            padding-bottom: 0.5%;
+            padding-left: 5%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            padding-right: 20px;
+        }
+         .patrocinadores,
+        .software-incluido,
+        .seguridad-accesibilidad {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 20px;
+            padding-bottom: 1%;
+            padding-left: 5%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            padding-right: 20px;
         }
     </style>
 </head>
+
 <body>
     <main>
-        <div>
-            <h1>Que es Ubuntu:</h1>
-            <p>Es un sistema operativo de software libre y código abierto. Es una distribución de Linux basada en <a
-                    href="https://es.wikipedia.org/wiki/Debian_GNU/Linux">Debian</a>.</p>
-            <p>Esta orientado a usuarios promedisos , en el enfoques en la facilidad de uso y en la mejora de los
-                usuarios
-                esta compuesto de mutiples software normalmente dritribuido bajo codigo libre .</p>
+        <div class="ubuntu">
+            <p>Ubuntu es un sistema operativo de software libre y código abierto basado en <a
+                    href="https://es.wikipedia.org/wiki/Debian_GNU/Linux">Debian</a>, diseñado para ser fácil de usar y
+                mejorar la experiencia del usuario.</p>
         </div>
-        <div>
-            <h3>Sus patrocinadores :</h3>
-            <p>Su patrocinador es canonica es una compañia britanica que ofrece el sistema
-                operativo de manera gratuita
-                Además, al mantenerlo libre y gratuito, la empresa es capaz de aprovechar los desarrolladores de la
-                comunidad para mejorar los componentes de su sistema operativo.
-                Cada seis meses se publica una nueva versión de Ubuntu. Esta recibe soporte por parte de <a
-                    href="https://canonical.com">Canonical</a>
-                durante
-                nueve meses por medio de actualizaciones de seguridad, parches para bugs críticos y actualizaciones
-                menores
-                de programas. Las versiones LTS , que se liberan cada dos años ,​ reciben soporte durante cinco años en
-                los
-                sistemas de escritorio y de servidor. </p>
+        <div class="patrocinadores">
+            <h3>Sus patrocinadores</h3>
+            <p>Canonical Ltd. es la empresa detrás de Ubuntu, que ofrece el sistema de forma gratuita y recibe
+                contribuciones de la comunidad para mejorar continuamente.</p>
+            <p>Cada seis meses se publica una nueva versión de Ubuntu, con soporte ofrecido por <a
+                    href="https://canonical.com">Canonical</a> durante 9 meses. Las versiones LTS (Long Term Support)
+                reciben soporte durante 5 años en sistemas de escritorio y servidores.</p>
         </div>
+        <div class="software-incluido">
             <h3>Software incluido</h3>
-            <p>Ubuntu posee una gran gama de aplicaciones para llevar a cabo tareas cotidianas, entretenimiento,
-                desarrollo y
-                aplicaciones para la configuración de todo el sistema. La interfaz predeterminada de Ubuntu es Unity y
-                utiliza en
-                conjunto las aplicaciones de GNOME. Existen otras versiones extraoficiales mantenidas por la comunidad,
-                con
-                diferentes escritorios, y pueden ser instalados independientemente del instalado predefinido en Ubuntu.
-            </p>
+            <p>Ubuntu incluye una amplia gama de aplicaciones para tareas cotidianas, entretenimiento, desarrollo y
+                configuración del sistema. Utiliza la interfaz Unity y aplicaciones de GNOME.</p>
+            <p>Existen versiones extraoficiales mantenidas por la comunidad con diferentes escritorios que pueden
+                instalarse independientemente.</p>
+        </div>
+        <div class="seguridad-accesibilidad">
             <h3>Seguridad y accesibilidad</h3>
-            <p>El sistema incluye funciones avanzadas de seguridad y entre sus políticas se encuentra el no activar, de
-                forma
-                predeterminada, procesos latentes al momento de instalarse. Por eso mismo, no hay un cortafuegos
-                predeterminado,
-                ya que supuestamente no existen servicios que puedan atentar a la seguridad del sistema. Para labores o
-                tareas
-                administrativas en la línea de comandos incluye una herramienta llamada sudo , con la que se evita el
-                uso del usuario administrador. Posee accesibilidad e
-                internacionalización, de modo que el sistema esté disponible para tanta gente como sea posible.se
-                utiliza UTF-8
-                como codificación de caracteres predeterminado.</p>
+            <p>Ubuntu cuenta con funciones avanzadas de seguridad y políticas como la no activación de procesos latentes
+                por defecto. No incluye un cortafuegos predeterminado, ya que no hay servicios que amenacen la seguridad
+                del sistema.</p>
+            <p>Para tareas administrativas, se utiliza la herramienta sudo en la línea de comandos para evitar el uso
+                del usuario administrador. Además, Ubuntu se centra en la accesibilidad e internacionalización,
+                utilizando UTF-8 como codificación de caracteres predeterminada.</p>
         </div>
     </main>
 </body>
+
 </html>

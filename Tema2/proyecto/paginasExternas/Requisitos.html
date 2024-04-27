@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="">
     <title>Requisitos Ubuntu</title>
     <style>
-        h1 {
-            text-align: center;
-            margin: 0%;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
         }
 
         .img {
@@ -19,26 +22,65 @@
             border: 1px solid gray;
             text-align: center;
             float: right;
+            background-color: #fff;
         }
-        .img p{
+
+        .img p {
             padding: 0%;
             margin: 0%;
             padding-bottom: 0.3%;
+            margin: 5px 0 0;
+            /* Separación entre el texto y la imagen */
+            font-style: italic;
+            color: #666;
+        }
+
+        .descripcion {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px;
+            padding-bottom: 1%;
+            padding-left: 5%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            padding-right: 20px;
+        }
+        .descripcion h1{
+            padding-bottom: 1%;
+             text-align: center;
+        }
+        .descripcion div{
+            text-align: center;
+        }
+
+         .lista {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px;
+            padding-bottom: 1%;
+            padding-left: 5%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            padding-right: 20px;
         }
     </style>
 </head>
 
 <body>
     <main>
-        <h1>Requisitos de Ubuntu</h1>
-        <h2></h2>
-        <div> Los requisitos mínimos recomendados, teniendo en cuenta los efectos de escritorio, deberían permitir
-            ejecutar una instalación de Ubuntu</div>
+        <div class="descripcion" >
+            <h1>Requisitos de Ubuntu</h1>
+            <div> Los requisitos mínimos recomendados, teniendo en cuenta los efectos de escritorio, deberían permitir
+                ejecutar una instalación de Ubuntu :</div>
+        </div>
+
         <div class="img">
             <img src="../Img/intalacion_ubuntu.jpg" alt="">
             <p>Menú de instalación del Live CD.</p>
         </div>
-        <div>
+        <div class="lista">
             <ul>
                 <li>Procesador x86 a 700 MHz.</li>
                 <li>Memoria RAM de 512 Mb.</li>
@@ -48,35 +90,36 @@
                 <li>Conexión a Internet puede ser útil.</li>
             </ul>
         </div>
-        <div>Los efectos de escritorio, proporcionados por Compiz, se activan de forma predeterminada en las siguientes
-            tarjetas gráficas: </div>
-        <div>
+        
+        <div class="lista">
+            <div>Los efectos de escritorio, proporcionados por Compiz, se activan de forma predeterminada en las siguientes
+                tarjetas gráficas: </div>
             <ul>
                 <li>Intel (i915 o superior, excepto GMA 500, nombre en clave "Poulsbo")</li>
                 <li>NVidia (con su controlador propietario o el controlar abierto incorporado Nouveau)</li>
                 <li>ATI (a partir del modelo Radeon HD 2000 puede ser necesario el controlador propietario fglrx)
                 </li>
             </ul>
+            <div>
+                Para una instalación óptima, y sobre todo si se dispone de más de 3 GiB de RAM, existe también una
+                versión de Ubuntu para sistemas de 64 bits.
+            </div>
         </div>
-        <div>
-            Para una instalación óptima, y sobre todo si se dispone de más de 3 GiB de RAM, existe también una
-            versión de Ubuntu para sistemas de 64 bits.
-        </div>
-       
-        <div>
+        <div class="lista">
             <h2>Imágenes ISO oficiales</h2>
             <p>Las imágenes ISO de Ubuntu se pueden descargar desde el sitio oficial, para elegir la versión <a
                     href="https://ubuntu.com/download/desktop">Desktop</a> o
-              <a href="https://ubuntu.com/download/server">Server</a> . También mediante la compra directa en el sitio
-              Ubuntu Shop con discos y pendrives con Ubuntu
+                <a href="https://ubuntu.com/download/server">Server</a> . También mediante la compra directa en el sitio
+                Ubuntu Shop con discos y pendrives con Ubuntu
                 instalado, o mediante los equipos de distribución LoCoTeam de cada país que distribuye solo las
-                versiones LTS.</p>
-                
+                versiones LTS.
+            </p>
+
             <p>Además de la descarga de imágenes ISO por descarga directa, también se puede descargar a través de
                 redes P2P como BitTorrent, reduciendo así la carga en los servidores. Para ser grabados en DVD o
                 unidades portátiles USB.</p>
         </div>
-        
+
     </main>
 </body>
 

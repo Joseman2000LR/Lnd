@@ -38,7 +38,7 @@ header h1 {
     margin-top: 0.5%;
     color: white;
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 nav,
@@ -90,6 +90,7 @@ iframe {
 }
 
 #up {
+    margin-bottom: 1%;
     position: fixed;
     left: 15px;
     bottom: 15px;
