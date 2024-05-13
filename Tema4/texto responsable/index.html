@@ -8,13 +8,66 @@
     <title>Tabla a texto</title>
 
     <style type="text/css">
-        .calificaciones {}
+
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.calificaciones {
+  width: 100%;
+}
+
+.calificaciones th,
+.calificaciones td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media query para pantallas mayores a 800px */
+@media (min-width: 801px) {
+  .calificaciones {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+  }
+
+  .calificaciones tr {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+  }
+
+  .calificaciones th,
+  .calificaciones td {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    white-space: nowrap;
+  }
+}
+        @media (max-width: 800px) {
+            .container {
+                padding: 10px;
+
+            }
+
+            .calificaciones th {
+                color: black;
+            }
+
+            .calificaciones {
+                background-color: green;
+
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <table border="1px" class="calificaciones">
+    <table border="10px" class="calificaciones">
         <tr>
             <th> Nombre</th>
             <th> Apellido1</th>
